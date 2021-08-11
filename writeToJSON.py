@@ -5,9 +5,12 @@ import json
 from datetime import datetime
 import re
 import aiohttp
+# import os
 import asyncio
+# dir_path = os.path.dirname(os.path.realpath(__file__))
+# print(dir_path)
 
-with open("./account.json") as f:
+with open("/root/ValorantSkinChecker/account.json") as f:
     accountData = json.load(f)
 
 acctUsername = accountData['username']
@@ -64,7 +67,7 @@ async def run(username="", password=""):
     toDump = {"access": entitlements_token,
               "bearer": access_token, "id": user_id}
 
-    with open("./auth.json", "w") as acc:
+    with open("/root/ValorantSkinChecker/auth.json", "w") as acc:
         acc.write(json.dumps(toDump))
 
     await session.close()
@@ -77,10 +80,10 @@ def main():
     # rn = str(datem)[5:10]
     sendDate = str(datem)
 
-    with open("./auth.json") as f:
+    with open("/root/ValorantSkinChecker/auth.json") as f:
         actData = json.load(f)
 
-    with open("./skins.json") as s:
+    with open("/root/ValorantSkinChecker/skins.json") as s:
         skinData = json.load(s)
 
     endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{actData['id']}"
@@ -110,20 +113,23 @@ def main():
             matchName = skin['name']
             matchedSkins.append(matchName)
     webhookURL = "https://discord.com/api/webhooks/874716318509699092/Ln1FTTDNGqSiRZMs8S4k69OH2aUgbSkPI8vbAVzsMfvtK4FQlunqWrpdTpNUWkFuf3kH"
+    webhook2URL = "https://discord.com/api/webhooks/874929149150638080/7M3WXEywh8_2KLkF13taZltK8ZIEKzF1b1aKmnDX-sqt_-5Yuld8Mmcdtfuraim7xPFC"
 
     # r = requests.post(webhookURL, headers={
     #                   'Content-Type': 'application/json'}, data={"content": "swag"})
     # print(r)
     webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
+    webhook2 = Webhook.from_url(webhook2URL, adapter=RequestsWebhookAdapter())
     strToSend = f"{sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     webhook.send(strToSend)
-    # with open("./../DiscordValSkins/matches.json") as toWrite:
+    webhook2.send(strToSend)
+    # with open("/root/ValorantSkinChecker/../DiscordValSkins/matches.json") as toWrite:
     #     updateThis = json.load(toWrite)
     # test = [1, 2, 3, 7]
 
     # if toAppend not in updateThis:
     #     updateThis.append(toAppend)
-    #     with open("./../DiscordValSkins/matches.json", "w") as writeNow:
+    #     with open("/root/ValorantSkinChecker/../DiscordValSkins/matches.json", "w") as writeNow:
     #         writeNow.write(json.dumps(updateThis, indent=2))
     # print(f"{rn}: | ", end="")
     # for i in matchedSkins:
@@ -134,9 +140,5 @@ def main():
 
 
 if __name__ == '__main__':
-    try:
-        main()
-    except:
-        asyncio.get_event_loop().run_until_complete(run())
-        main()
-    
+    asyncio.get_event_loop().run_until_complete(run())
+    main()
