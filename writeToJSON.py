@@ -125,7 +125,7 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches):
     if wanted:
         strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     else:
-        strToSend = f"***MATCH FOUND***{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+        strToSend = f"***MATCH FOUND*** {name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     webhook.send(strToSend)
     webhook2.send(strToSend)
     # with open("/root/ValorantSkinChecker/../DiscordValSkins/matches.json") as toWrite:
