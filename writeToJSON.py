@@ -112,7 +112,7 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches):
             matches += 1
             matchName = skin['name']
             matchedSkins.append(matchName)
-            if matchName in wantedMatches:
+            if matchName.lower() in wantedMatches:
                 wanted = True
     webhookURL = "https://discord.com/api/webhooks/874716318509699092/Ln1FTTDNGqSiRZMs8S4k69OH2aUgbSkPI8vbAVzsMfvtK4FQlunqWrpdTpNUWkFuf3kH"
     webhook2URL = "https://discord.com/api/webhooks/874929149150638080/7M3WXEywh8_2KLkF13taZltK8ZIEKzF1b1aKmnDX-sqt_-5Yuld8Mmcdtfuraim7xPFC"
@@ -122,7 +122,7 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches):
     # print(r)
     webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
     webhook2 = Webhook.from_url(webhook2URL, adapter=RequestsWebhookAdapter())
-    if wanted:
+    if not wanted:
         strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     else:
         strToSend = f"***MATCH FOUND*** {name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
