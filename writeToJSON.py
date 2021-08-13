@@ -68,10 +68,10 @@ async def run(account):
         acc.write(json.dumps(toDump))
 
     await session.close()
-    main(entitlements_token, access_token, user_id, account['name'])
+    main(entitlements_token, access_token, user_id, account['name'], account['matches'])
 
 
-def main(entitlements_token, access_token, user_id, name):
+def main(entitlements_token, access_token, user_id, name, wantedMatches):
     today = datetime.today()
     datem = datetime(today.year, today.month, today.day,
                      today.hour, today.minute)
@@ -100,6 +100,7 @@ def main(entitlements_token, access_token, user_id, name):
         skinIds.append(skin)
     # print(skinIds)
 
+    wanted = False
     matches = 0
     matchedSkins = []
     for skin in skinData['skinLevels']:
@@ -111,6 +112,8 @@ def main(entitlements_token, access_token, user_id, name):
             matches += 1
             matchName = skin['name']
             matchedSkins.append(matchName)
+            if matchName in wantedMatches:
+                wanted = True
     webhookURL = "https://discord.com/api/webhooks/874716318509699092/Ln1FTTDNGqSiRZMs8S4k69OH2aUgbSkPI8vbAVzsMfvtK4FQlunqWrpdTpNUWkFuf3kH"
     webhook2URL = "https://discord.com/api/webhooks/874929149150638080/7M3WXEywh8_2KLkF13taZltK8ZIEKzF1b1aKmnDX-sqt_-5Yuld8Mmcdtfuraim7xPFC"
 
@@ -119,7 +122,10 @@ def main(entitlements_token, access_token, user_id, name):
     # print(r)
     webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
     webhook2 = Webhook.from_url(webhook2URL, adapter=RequestsWebhookAdapter())
-    strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+    if wanted:
+        strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+    else:
+        strToSend = f"***MATCH FOUND***{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     webhook.send(strToSend)
     webhook2.send(strToSend)
     # with open("/root/ValorantSkinChecker/../DiscordValSkins/matches.json") as toWrite:
