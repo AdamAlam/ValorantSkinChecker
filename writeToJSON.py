@@ -1,23 +1,19 @@
 from discord import Webhook, RequestsWebhookAdapter
 import requests
 import json
-# from RSO_AuthFlow import *
 from datetime import datetime
 import re
 import aiohttp
-# import os
 import asyncio
-# dir_path = os.path.dirname(os.path.realpath(__file__))
-# print(dir_path)
 
+# For CentOS Server:
 with open("/root/ValorantSkinChecker/account.json") as f:
+    # For Local Server:
+    # with open("./account.json") as f:
     accountData = json.load(f)
 
-acctUsername = accountData['username']
-acctPassword = accountData['password']
 
-
-async def run(username="", password=""):
+async def run(account):
     session = aiohttp.ClientSession()
     data = {
         'client_id': 'play-valorant-web-prod',
@@ -29,8 +25,8 @@ async def run(username="", password=""):
 
     data = {
         'type': 'auth',
-        'username': acctUsername,
-        'password': acctPassword
+        'username': account['username'],
+        'password': account['password']
     }
     async with session.put('https://auth.riotgames.com/api/v1/authorization', json=data) as r:
         data = await r.json()
@@ -68,29 +64,33 @@ async def run(username="", password=""):
               "bearer": access_token, "id": user_id}
 
     with open("/root/ValorantSkinChecker/auth.json", "w") as acc:
+        # with open("./auth.json", "w") as acc:
         acc.write(json.dumps(toDump))
 
     await session.close()
+    main(entitlements_token, access_token, user_id, account['name'])
 
 
-def main():
+def main(entitlements_token, access_token, user_id, name):
     today = datetime.today()
     datem = datetime(today.year, today.month, today.day,
                      today.hour, today.minute)
     # rn = str(datem)[5:10]
-    sendDate = str(datem)
+    sendDate = str(datem)[5:10]
 
+    # with open("./auth.json") as f:
     with open("/root/ValorantSkinChecker/auth.json") as f:
         actData = json.load(f)
 
+    # with open("./skins.json") as s:
     with open("/root/ValorantSkinChecker/skins.json") as s:
         skinData = json.load(s)
 
-    endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{actData['id']}"
+    endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{user_id}"
     headers = {
-        "X-Riot-Entitlements-JWT": actData['access'],
+        "X-Riot-Entitlements-JWT": entitlements_token,
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {actData['bearer']}"
+        "Authorization": f"Bearer {access_token}"
     }
 
     mySkinsJson = requests.get(endpoint, headers=headers).json()
@@ -102,7 +102,6 @@ def main():
 
     matches = 0
     matchedSkins = []
-    ids = []
     for skin in skinData['skinLevels']:
         if matches >= 4:
             break
@@ -120,7 +119,7 @@ def main():
     # print(r)
     webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
     webhook2 = Webhook.from_url(webhook2URL, adapter=RequestsWebhookAdapter())
-    strToSend = f"{sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+    strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
     webhook.send(strToSend)
     webhook2.send(strToSend)
     # with open("/root/ValorantSkinChecker/../DiscordValSkins/matches.json") as toWrite:
@@ -140,5 +139,8 @@ def main():
 
 
 if __name__ == '__main__':
-    asyncio.get_event_loop().run_until_complete(run())
-    main()
+    for account in accountData:
+        try:
+            main(account)
+        except:
+            asyncio.get_event_loop().run_until_complete(run(account))
