@@ -1,2 +1,6 @@
-*.json
+account.json
+auth.json
+response.json
+webhooks.json
 /__pycache__
+writeToJSONLocal.py

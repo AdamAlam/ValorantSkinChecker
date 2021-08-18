@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Account Label 1",
+    "username": "<riot username>",
+    "password": "<riot password> this field is case sensitive",
+    "matches": [
+      "ion phantom",
+      "forsaken classic",
+      "blastx phantom",
+      "THIS FIELD IS CASE SENSITIVE, IT MUST BE LOWER CASE"
+    ],
+    "discord": "<discord user id>"
+  },
+  {
+    "name": "Account Label 2",
+    "username": "<riot username>",
+    "password": "<riot password>",
+    "matches": ["glitchpop vandal", "reaver vandal", "oni phantom"],
+    "discord": "<discord user id>"
+  }
+]

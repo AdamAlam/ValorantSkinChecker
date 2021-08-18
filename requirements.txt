@@ -1,0 +1,7 @@
+discord 
+requests
+json
+datetime
+re
+aiohttp
+asyncio
