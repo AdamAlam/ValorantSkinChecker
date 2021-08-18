@@ -1,7 +1,6 @@
 from discord import Webhook, RequestsWebhookAdapter
 import requests
 import json
-# from RSO_AuthFlow import *
 from datetime import datetime
 import re
 import aiohttp
@@ -9,9 +8,6 @@ import asyncio
 
 with open("./account.json") as f:
     accountData = json.load(f)
-
-# acctUsername = accountData['username']
-# acctPassword = accountData['password']
 
 
 async def run(account):
@@ -69,6 +65,7 @@ async def run(account):
 
     await session.close()
     
+    print(f"entitlements_token:{entitlements_token}\n\naccess_token:{access_token}\n\nuser_id:{user_id}\n\naccount:{account['name']}")
     main(entitlements_token, access_token, user_id, account['name'])
 
 
@@ -76,7 +73,6 @@ def main(entitlements_token, access_token, user_id, name):
     today = datetime.today()
     datem = datetime(today.year, today.month, today.day,
                      today.hour, today.minute)
-    # rn = str(datem)[5:10]
     sendDate = str(datem)
 
     with open("./auth.json") as f:
@@ -85,60 +81,42 @@ def main(entitlements_token, access_token, user_id, name):
     with open("./skins.json") as s:
         skinData = json.load(s)
 
-    endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{user_id}"
+    endpoint = f"https://pd.na.a.pvp.net/mmr/v1/players/{user_id}/competitiveupdates"
     headers = {
         "X-Riot-Entitlements-JWT": entitlements_token,
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {access_token}"
+        "Authorization": f"Bearer {access_token}",
+        "X-Riot-ClientPlatform":"ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9",
+        "X-Riot-ClientVersion" : "release-02.01-shipping-6-511946"
     }
 
     mySkinsJson = requests.get(endpoint, headers=headers).json()
+    print(mySkinsJson)
 
-    skinIds = []
-    for skin in mySkinsJson['SkinsPanelLayout']['SingleItemOffers']:
-        skinIds.append(skin)
-    # print(skinIds)
+    # skinIds = []
+    # for skin in mySkinsJson['SkinsPanelLayout']['SingleItemOffers']:
+    #     skinIds.append(skin)
 
-    matches = 0
-    matchedSkins = []
-    for skin in skinData['skinLevels']:
-        if matches >= 4:
-            break
-        id = skin['id'].lower()
-        # ids.append(id)
-        if id in skinIds:
-            matches += 1
-            matchName = skin['name']
-            matchedSkins.append(matchName)
-    webhookURL = "https://discord.com/api/webhooks/874716318509699092/Ln1FTTDNGqSiRZMs8S4k69OH2aUgbSkPI8vbAVzsMfvtK4FQlunqWrpdTpNUWkFuf3kH"
+    # matches = 0
+    # matchedSkins = []
+    # for skin in skinData['skinLevels']:
+    #     if matches >= 4:
+    #         break
+    #     id = skin['id'].lower()
+    #     if id in skinIds:
+    #         matches += 1
+    #         matchName = skin['name']
+    #         matchedSkins.append(matchName)
+    # webhookURL = "https://discord.com/api/webhooks/874716318509699092/Ln1FTTDNGqSiRZMs8S4k69OH2aUgbSkPI8vbAVzsMfvtK4FQlunqWrpdTpNUWkFuf3kH"
 
-    # r = requests.post(webhookURL, headers={
-    #                   'Content-Type': 'application/json'}, data={"content": "swag"})
-    # print(r)
-    webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
-    strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
-    # print(mySkinsJson['SkinsPanelLayout']['SingleItemOffers'])
-    webhook.send(strToSend)
-    # with open("./../DiscordValSkins/matches.json") as toWrite:
-    #     updateThis = json.load(toWrite)
-    # test = [1, 2, 3, 7]
-
-    # if toAppend not in updateThis:
-    #     updateThis.append(toAppend)
-    #     with open("./../DiscordValSkins/matches.json", "w") as writeNow:
-    #         writeNow.write(json.dumps(updateThis, indent=2))
-    # print(f"{rn}: | ", end="")
-    # for i in matchedSkins:
-    #     print(i, end=" | ")
-    # print("")
-
-    # print(f"{skinIds}\n\n{ids}")
+    # webhook = Webhook.from_url(webhookURL, adapter=RequestsWebhookAdapter())
+    # strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+    # webhook.send(strToSend)
+    
 
 
 if __name__ == '__main__':
     for account in accountData:
-        try:
-            main(account)
-        except:
-            asyncio.get_event_loop().run_until_complete(run(account))
+        asyncio.get_event_loop().run_until_complete(run(account))
+        break
     
