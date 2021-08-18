@@ -109,7 +109,7 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
     with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
         webhooksJSON = json.load(webhooks)
     
-    for webhook in webhooks:
+    for webhook in webhooksJSON:
         wburl = Webhook.from_url(webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
         if not wanted:
             strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
