@@ -11,7 +11,6 @@ with open("/root/ValorantSkinChecker/account.json") as f:
     accountData = json.load(f)
 
 
-
 async def run(account):
     session = aiohttp.ClientSession()
     data = {
@@ -60,7 +59,8 @@ async def run(account):
         acc.write(json.dumps(toDump))
 
     await session.close()
-    main(entitlements_token, access_token, user_id, account['name'], account['matches'], account['discord'])
+    main(entitlements_token, access_token, user_id,
+         account['name'], account['matches'], account['discord'])
 
 
 def main(entitlements_token, access_token, user_id, name, wantedMatches, discord):
@@ -108,13 +108,25 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
                 wanted = True
     with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
         webhooksJSON = json.load(webhooks)
-    
+
     for webhook in webhooksJSON:
-        wburl = Webhook.from_url(webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
+        wburl = Webhook.from_url(
+            webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
         if not wanted:
-            strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+            try:
+                strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+            except IndexError:
+                strToSend = f"{name}: {sendDate} "
+                for skin in matchedSkins:
+                    strToSend += f"{skin} "
+
         else:
-            strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+            try:
+                strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+            except IndexError:
+                strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} "
+                for skin in matchedSkins:
+                    strToSend += f"{skin} "
         wburl.send(strToSend)
 
 
