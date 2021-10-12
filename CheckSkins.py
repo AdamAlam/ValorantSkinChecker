@@ -7,9 +7,9 @@ import aiohttp
 import asyncio
 
 # For CentOS Server:
-# with open("/root/ValorantSkinChecker/account.json") as f:
+with open("/root/ValorantSkinChecker/account.json") as f:
 # For Local Server:
-with open("./account.json") as f:
+# with open("./account.json") as f:
     accountData = json.load(f)
 
 
@@ -56,8 +56,8 @@ async def run(account):
     toDump = {"access": entitlements_token,
               "bearer": access_token, "id": user_id}
 
-    # with open("/root/ValorantSkinChecker/auth.json", "w") as acc:
-    with open("./auth.json", "w") as acc:
+    with open("/root/ValorantSkinChecker/auth.json", "w") as acc:
+    # with open("./auth.json", "w") as acc:
         acc.write(json.dumps(toDump))
 
     await session.close()
@@ -72,12 +72,12 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
     # rn = str(datem)[5:10]
     sendDate = str(datem)[5:10]
 
-    with open("./auth.json") as f:
-        # with open("/root/ValorantSkinChecker/auth.json") as f:
+    # with open("./auth.json") as f:
+    with open("/root/ValorantSkinChecker/auth.json") as f:
         actData = json.load(f)
 
-    with open("./skins.json") as s:
-        # with open("/root/ValorantSkinChecker/skins.json") as s:
+    # with open("./skins.json") as s:
+    with open("/root/ValorantSkinChecker/skins.json") as s:
         skinData = json.load(s)
 
     endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{user_id}"
