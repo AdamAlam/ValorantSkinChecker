@@ -8139,6 +8139,7 @@
       "assetName": "Default__AutoPistol_URF_v3_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "VALORANT GO! Vol. 2 Classic",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 2 كلاسيك",
@@ -8164,6 +8165,8 @@
       "assetName": "Default__BasePistol_Anime2_Standard_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Spectrum Classic",
       "localizedNames": {
         "ar-AE": "سبيكتروم كلاسيك",
@@ -16664,6 +16667,7 @@
       "assetName": "Default__Vector_Walnut_Standard_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Blade Level 2 (Variant 2 Blue)",
       "localizedNames": {
         "ar-AE": "نصل آر جي إكس 11زي برو المستوى 2 (بديل 2 أزرق)",
@@ -16764,6 +16768,8 @@
       "assetName": "Default__Melee_Afterglow_Yellow_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "VALORANT GO! Vol. 1 Knife",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 1 السكين",
@@ -16781,7 +16787,11 @@
         "ru-RU": "Нож \"VALORANT GO! Вып. 1\"",
         "th-TH": "VALORANT GO! Vol. 1 Knife",
         "tr-TR": "VALORANT GO! 1. Cilt Bıçak",
+<<<<<<< HEAD
         "vi-VN": "Dao Găm VALORANT GO! Vol.1",
+=======
+        "vi-VN": "Dao VALORANT GO! Vol.1",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-CN": "无畏契约GO！第一卷 匕首",
         "zh-TW": "特戰英豪 GO！第1集 小刀"
       },
@@ -16789,6 +16799,7 @@
       "assetName": "Default__Melee_Anime_Standard_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Yoru's Stylish Butterfly Comb",
       "localizedNames": {
         "ar-AE": "مشط فراشة يورو الأنيق",
@@ -16814,6 +16825,8 @@
       "assetName": "Default__Melee_Anime2_Standard_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Waveform",
       "localizedNames": {
         "ar-AE": "وايف فورم",
@@ -22166,6 +22179,7 @@
       "assetName": "Default__AutoPistol_URF_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "VALORANT GO! Vol. 2 Classic",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 2 كلاسيك",
@@ -22191,6 +22205,8 @@
       "assetName": "Default__BasePistol_Anime2_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Spectrum Classic",
       "localizedNames": {
         "ar-AE": "سبيكتروم كلاسيك",
@@ -26491,6 +26507,7 @@
       "assetName": "Default__Vector_Walnut_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Blade",
       "localizedNames": {
         "ar-AE": "نصل آر جي إكس 11زي برو",
@@ -26516,6 +26533,8 @@
       "assetName": "Default__Melee_Afterglow_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "VALORANT GO! Vol. 1 Knife",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 1 السكين",
@@ -26533,7 +26552,11 @@
         "ru-RU": "Нож \"VALORANT GO! Вып. 1\"",
         "th-TH": "VALORANT GO! Vol. 1 Knife",
         "tr-TR": "VALORANT GO! 1. Cilt Bıçak",
+<<<<<<< HEAD
         "vi-VN": "Dao Găm VALORANT GO! Vol.1",
+=======
+        "vi-VN": "Dao VALORANT GO! Vol.1",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-CN": "无畏契约GO！第一卷 匕首",
         "zh-TW": "特戰英豪 GO！第1集 小刀"
       },
@@ -26541,6 +26564,7 @@
       "assetName": "Default__Melee_Anime_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Yoru's Stylish Butterfly Comb",
       "localizedNames": {
         "ar-AE": "مشط فراشة يورو الأنيق",
@@ -26566,6 +26590,8 @@
       "assetName": "Default__Melee_Anime2_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Waveform",
       "localizedNames": {
         "ar-AE": "وايف فورم",
@@ -34018,6 +34044,7 @@
       "assetName": "Default__AutoPistol_URF_Lv4_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "VALORANT GO! Vol. 2 Classic",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 2 كلاسيك",
@@ -34043,6 +34070,8 @@
       "assetName": "Default__BasePistol_Anime2_Lv1_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Spectrum Classic",
       "localizedNames": {
         "ar-AE": "سبيكتروم كلاسيك",
@@ -41368,6 +41397,7 @@
       "assetName": "Default__Vector_Walnut_Lv1_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Blade",
       "localizedNames": {
         "ar-AE": "نصل آر جي إكس 11زي برو",
@@ -41418,6 +41448,8 @@
       "assetName": "Default__Melee_Afterglow_Lv2_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "VALORANT GO! Vol. 1 Knife",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 1 السكين",
@@ -41435,7 +41467,11 @@
         "ru-RU": "Нож \"VALORANT GO! Вып. 1\"",
         "th-TH": "VALORANT GO! Vol. 1 Knife",
         "tr-TR": "VALORANT GO! 1. Cilt Bıçak",
+<<<<<<< HEAD
         "vi-VN": "Dao Găm VALORANT GO! Vol.1",
+=======
+        "vi-VN": "Dao VALORANT GO! Vol.1",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-CN": "无畏契约GO！第一卷 匕首",
         "zh-TW": "特戰英豪 GO！第1集 小刀"
       },
@@ -41468,6 +41504,7 @@
       "assetName": "Default__Melee_Anime_Lv2_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Yoru's Stylish Butterfly Comb",
       "localizedNames": {
         "ar-AE": "مشط فراشة يورو الأنيق",
@@ -41518,6 +41555,8 @@
       "assetName": "Default__Melee_Anime2_Lv2_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Waveform",
       "localizedNames": {
         "ar-AE": "وايف فورم",
@@ -42768,6 +42807,7 @@
       "assetName": "Default__Melee_SovWorld_Lv1_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Prosperity & Demise",
       "localizedNames": {
         "ar-AE": "بروسبيريتي & ديمايز",
@@ -42786,6 +42826,26 @@
         "th-TH": "Prosperity & Demise",
         "tr-TR": "Refah ve Çöküş",
         "vi-VN": "Thịnh Vượng & Suy Vong",
+=======
+      "name": "Prosperity \u0026 Demise",
+      "localizedNames": {
+        "ar-AE": "بروسبيريتي \u0026 ديمايز",
+        "de-DE": "Prosperity und Demise",
+        "en-US": "Prosperity \u0026 Demise",
+        "es-ES": "Prosperity \u0026 Demise",
+        "es-MX": "Prosperidad y Perdición",
+        "fr-FR": "Prospérité et Chute",
+        "id-ID": "Prosperity \u0026 Demise",
+        "it-IT": "Prosperità e Rovina",
+        "ja-JP": "プロスペリティ＆ディマイズ",
+        "ko-KR": "번영검 \u0026 종말검",
+        "pl-PL": "Rozkwit i Upadek",
+        "pt-BR": "Prosperidade e Declínio",
+        "ru-RU": "Процветание и Крах",
+        "th-TH": "Prosperity \u0026 Demise",
+        "tr-TR": "Refah ve Çöküş",
+        "vi-VN": "Thịnh Vượng \u0026 Suy Vong",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-CN": "束缚之境繁荣与灭亡",
         "zh-TW": "興盛與衰亡"
       },
@@ -44319,7 +44379,11 @@
         "es-ES": "Grafiti Se busca: Conejito táctico",
         "es-MX": "Spray Se Busca Conejo Táctico",
         "fr-FR": "Graffiti Recherché : Lapin tueur",
+<<<<<<< HEAD
         "id-ID": "Spray Wanted: Tactibunny",
+=======
+        "id-ID": "Wanted: Spray Tactibunny",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Ricercato: Tatticoniglio",
         "ja-JP": "指名手配: 戦略バニー スプレー",
         "ko-KR": "현상수배: 전략가 토끼 스프레이",
@@ -44611,6 +44675,7 @@
       "assetName": "Default__ViperCOVID_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Spray",
       "localizedNames": {
         "ar-AE": "رسمة آر جي إكس 11زي برو",
@@ -44636,6 +44701,8 @@
       "assetName": "Default__Afterglow_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Spectrum Spray",
       "localizedNames": {
         "ar-AE": "رسمة سبيكتروم",
@@ -45211,6 +45278,7 @@
       "assetName": "Default__GoingC_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "<3 Spray",
       "localizedNames": {
         "ar-AE": "رسمة 3>",
@@ -45230,6 +45298,27 @@
         "tr-TR": "<3 SPREYİ",
         "vi-VN": "Hình Phun Sơn <3",
         "zh-CN": "<3 涂鸦",
+=======
+      "name": "\u003c3 Spray",
+      "localizedNames": {
+        "ar-AE": "رسمة 3\u003e",
+        "de-DE": "Graffiti „\u003c3“",
+        "en-US": "\u003c3 Spray",
+        "es-ES": "Grafiti \u003c3",
+        "es-MX": "Spray \u003c3",
+        "fr-FR": "Graffiti \u003c3",
+        "id-ID": "Spray \u003c3",
+        "it-IT": "Spray \u003c3",
+        "ja-JP": "\u003c3 スプレー",
+        "ko-KR": "손가락 하트 스프레이",
+        "pl-PL": "Graffiti „\u003c3”",
+        "pt-BR": "Spray \u003c3",
+        "ru-RU": "Граффити \"\u003c3\"",
+        "th-TH": "สเปรย์ \u003c3",
+        "tr-TR": "\u003c3 SPREYİ",
+        "vi-VN": "Hình Phun Sơn \u003c3",
+        "zh-CN": "\u003c3 涂鸦",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-TW": "手指愛心 塗鴉"
       },
       "id": "87C0B8C9-4B11-2E9A-95FE-AD94CF102D85",
@@ -45944,7 +46033,11 @@
         "es-ES": "Epílogo: Grafiti Dab de Dan",
         "es-MX": "Epílogo: Spray Dan Haciendo Dab",
         "fr-FR": "Graffiti Épilogue : Dave qui dab",
+<<<<<<< HEAD
         "id-ID": "Spray Epilogue: Dabbing Dan",
+=======
+        "id-ID": "Epilogue: Spray Dabbing Dan",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Epilogo: Dan che dabba",
         "ja-JP": "エピローグ: ダブダンスダン スプレー",
         "ko-KR": "에필로그: 춤추는 댄 스프레이",
@@ -46269,7 +46362,11 @@
         "es-ES": "Epílogo: Grafiti Agrietado",
         "es-MX": "Spray Epílogo: Reventado",
         "fr-FR": "Graffiti Épilogue : Oups",
+<<<<<<< HEAD
         "id-ID": "Spray Epilogue: Cracked",
+=======
+        "id-ID": "Epilogue: Spray Cracked",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Epilogo: Frittata",
         "ja-JP": "エピローグ: クラック スプレー",
         "ko-KR": "에필로그: 균열 스프레이",
@@ -46294,7 +46391,11 @@
         "es-ES": "Grafiti ¿Gran pérdida?",
         "es-MX": "Spray ¿Muy Reducido?",
         "fr-FR": "Graffiti Grandement réduit ?",
+<<<<<<< HEAD
         "id-ID": "Spray Greatly Decreased?",
+=======
+        "id-ID": "Greatly Decreased? Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Notevolmente diminuito?",
         "ja-JP": "大幅低下？スプレー",
         "ko-KR": "대폭 감소 스프레이",
@@ -46344,7 +46445,11 @@
         "es-ES": "Grafiti ¡Killjoy! ¡Te elijo a ti!",
         "es-MX": "Spray ¡Killjoy! ¡Yo te elijo!",
         "fr-FR": "Graffiti Killjoy ! Je te choisis !",
+<<<<<<< HEAD
         "id-ID": "Spray Killjoy! I Choose You!",
+=======
+        "id-ID": "Killjoy! I Choose You! Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Killjoy! Scelgo te!",
         "ja-JP": "君に決めた！スプレー",
         "ko-KR": "킬조이를 선택할게! 스프레이",
@@ -46569,7 +46674,11 @@
         "es-ES": "Grafiti ¿Gran aumento?",
         "es-MX": "Spray ¿Muy Aumentado?",
         "fr-FR": "Graffiti Grandement augmenté ?",
+<<<<<<< HEAD
         "id-ID": "Spray Greatly Increased? ",
+=======
+        "id-ID": "Greatly Increased? Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Notevolmente aumentato?",
         "ja-JP": "大幅上昇？スプレー",
         "ko-KR": "대폭 증가 스프레이",
@@ -46639,7 +46748,11 @@
       "name": "Hooked Spray",
       "localizedNames": {
         "ar-AE": "رسمة صنارة الصيد",
+<<<<<<< HEAD
         "de-DE": "Graffiti „Am Haken“",
+=======
+        "de-DE": "Graffiti „Süchtig“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Hooked Spray",
         "es-ES": "Grafiti enganchado",
         "es-MX": "Spray Te Tengo",
@@ -46736,6 +46849,7 @@
       "assetName": "Default__KilljoyOprahNo_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Love > Hate Spray",
       "localizedNames": {
         "ar-AE": "رسمة الحب أقوى من الكراهية",
@@ -46756,6 +46870,28 @@
         "vi-VN": "Hình Phun Sơn Tình Yêu > Căm Ghét",
         "zh-CN": "Love > Hate Spray",
         "zh-TW": "愛>恨 塗鴉"
+=======
+      "name": "Love \u003e Hate Spray",
+      "localizedNames": {
+        "ar-AE": "رسمة الحب أقوى من الكراهية",
+        "de-DE": "Graffiti „Liebe \u003e Hass“",
+        "en-US": "Love \u003e Hate Spray",
+        "es-ES": "Grafiti Amor \u003e Odio",
+        "es-MX": "Spray Amor \u003e Odio",
+        "fr-FR": "Graffiti Amour \u003e Haine",
+        "id-ID": "Spray Love \u003e Hate",
+        "it-IT": "Spray Amore \u003e Odio",
+        "ja-JP": "愛は憎しみに勝る スプレー",
+        "ko-KR": "증오보다 사랑 스프레이",
+        "pl-PL": "Graffiti „Miłość \u003e nienawiść”",
+        "pt-BR": "Spray +Amor -Ódio",
+        "ru-RU": "Граффити \"Любовь \u003e Ненависть\"",
+        "th-TH": "สเปรย์ Love \u003e Hate",
+        "tr-TR": "Sevgi \u003e Nefret Spreyi",
+        "vi-VN": "Hình Phun Sơn Tình Yêu \u003e Căm Ghét",
+        "zh-CN": "Love \u003e Hate Spray",
+        "zh-TW": "愛\u003e恨 塗鴉"
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       },
       "id": "A8765B06-4131-5BE0-575A-E288CFA904A8",
       "assetName": "Default__LoveOverHate_PrimaryAsset_C"
@@ -47511,6 +47647,7 @@
       "assetName": "Default__Lunar_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Flames in my Veins Spray",
       "localizedNames": {
         "ar-AE": "رسمة عروقي الملتهبة",
@@ -47536,6 +47673,8 @@
       "assetName": "Default__BiteLipEmoji_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Just Business Spray",
       "localizedNames": {
         "ar-AE": "رسمة مجرد عمل",
@@ -47994,11 +48133,19 @@
         "es-ES": "Grafiti de Cypher VALORANT GO! Vol. 1",
         "es-MX": "Spray Cypher VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Cypher (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Cypher",
         "it-IT": "Spray Cypher VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 サイファー スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 사이퍼 스프레이",
         "pl-PL": "Graffiti „Cypher VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Cypher",
+        "it-IT": "Spray Cypher VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 サイファー スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 사이퍼 스프레이",
+        "pl-PL": "Graffiti Cyphera „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Cypher VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Cypher\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Cypher",
@@ -48019,11 +48166,19 @@
         "es-ES": "Grafiti de Jett VALORANT GO! Vol. 1",
         "es-MX": "Spray Jett VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Jett (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Jett",
         "it-IT": "Spray Jett VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 ジェット スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 제트 스프레이",
         "pl-PL": "Graffiti „Jett VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Jett",
+        "it-IT": "Spray Jett VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 ジェット スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 제트 스프레이",
+        "pl-PL": "Graffiti Jett „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Jett VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Jett\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Jett",
@@ -48044,11 +48199,19 @@
         "es-ES": "Grafiti de Killjoy VALORANT GO! Vol. 1",
         "es-MX": "Spray Killjoy VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Killjoy (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Killjoy",
         "it-IT": "Spray Killjoy VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 キルジョイ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 킬조이 스프레이",
         "pl-PL": "Graffiti „Killjoy VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Killjoy",
+        "it-IT": "Spray Killjoy VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 キルジョイ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 킬조이 스프레이",
+        "pl-PL": "Graffiti Killjoy „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Killjoy VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Killjoy\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Killjoy",
@@ -48069,11 +48232,19 @@
         "es-ES": "Grafiti de Reyna VALORANT GO! Vol. 1",
         "es-MX": "Spray Reyna VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Reyna (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Reyna",
         "it-IT": "Spray Reyna VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 レイナ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 레이나 스프레이",
         "pl-PL": "Graffiti „Reyna VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Reyna",
+        "it-IT": "Spray Reyna VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 レイナ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 레이나 스프레이",
+        "pl-PL": "Graffiti Reyny „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Reyna VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Reyna\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Reyna",
@@ -48094,11 +48265,19 @@
         "es-ES": "Grafiti de Sage VALORANT GO! Vol. 1",
         "es-MX": "Spray Sage VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Sage (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Sage",
         "it-IT": "Spray Sage VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 セージ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 세이지 스프레이",
         "pl-PL": "Graffiti „Sage VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Sage",
+        "it-IT": "Spray Sage VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 セージ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 세이지 스프레이",
+        "pl-PL": "Graffiti Sage „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Sage VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Sage\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Sage",
@@ -48294,7 +48473,11 @@
         "es-ES": "Grafiti del EP. 2, Glitchpop",
         "es-MX": "Spray Glitchpop, EP 2",
         "fr-FR": "Graffiti Glitchpop, ÉP 2",
+<<<<<<< HEAD
         "id-ID": "Spray Glitchpop, EP 2",
+=======
+        "id-ID": "Glitchpop, Spray EP 2",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Glitchpop, spray EP 2",
         "ja-JP": "グリッチポップ EP 2 スプレー",
         "ko-KR": "글리치팝 에피소드 2 스프레이",
@@ -49521,7 +49704,11 @@
         "es-ES": "Grafiti Se busca: Conejito táctico",
         "es-MX": "Spray Se Busca Conejo Táctico",
         "fr-FR": "Graffiti Recherché : Lapin tueur",
+<<<<<<< HEAD
         "id-ID": "Spray Wanted: Tactibunny",
+=======
+        "id-ID": "Wanted: Spray Tactibunny",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Ricercato: Tatticoniglio",
         "ja-JP": "指名手配: 戦略バニー スプレー",
         "ko-KR": "현상수배: 전략가 토끼 스프레이",
@@ -49813,6 +50000,7 @@
       "assetName": "Default__ViperCOVID_Level1_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "Afterglow",
       "localizedNames": {
         "ar-AE": "Afterglow",
@@ -49838,6 +50026,8 @@
       "assetName": "Default__Afterglow_Level1_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Atlas",
       "localizedNames": {
         "ar-AE": "Atlas",
@@ -50413,6 +50603,7 @@
       "assetName": "Default__GoingC_Level1_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "<3 Spray",
       "localizedNames": {
         "ar-AE": "رسمة 3>",
@@ -50432,6 +50623,27 @@
         "tr-TR": "<3 SPREYİ",
         "vi-VN": "Hình Phun Sơn <3",
         "zh-CN": "<3 涂鸦",
+=======
+      "name": "\u003c3 Spray",
+      "localizedNames": {
+        "ar-AE": "رسمة 3\u003e",
+        "de-DE": "Graffiti „\u003c3“",
+        "en-US": "\u003c3 Spray",
+        "es-ES": "Grafiti \u003c3",
+        "es-MX": "Spray \u003c3",
+        "fr-FR": "Graffiti \u003c3",
+        "id-ID": "Spray \u003c3",
+        "it-IT": "Spray \u003c3",
+        "ja-JP": "\u003c3 スプレー",
+        "ko-KR": "손가락 하트 스프레이",
+        "pl-PL": "Graffiti „\u003c3”",
+        "pt-BR": "Spray \u003c3",
+        "ru-RU": "Граффити \"\u003c3\"",
+        "th-TH": "สเปรย์ \u003c3",
+        "tr-TR": "\u003c3 SPREYİ",
+        "vi-VN": "Hình Phun Sơn \u003c3",
+        "zh-CN": "\u003c3 涂鸦",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "zh-TW": "手指愛心 塗鴉"
       },
       "id": "E33CBDF8-4611-3B54-11B0-488D349F53E9",
@@ -51146,7 +51358,11 @@
         "es-ES": "Epílogo: Grafiti Dab de Dan",
         "es-MX": "Epílogo: Spray Dan Haciendo Dab",
         "fr-FR": "Graffiti Épilogue : Dave qui dab",
+<<<<<<< HEAD
         "id-ID": "Spray Epilogue: Dabbing Dan",
+=======
+        "id-ID": "Epilogue: Spray Dabbing Dan",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Epilogo: Dan che dabba",
         "ja-JP": "エピローグ: ダブダンスダン スプレー",
         "ko-KR": "에필로그: 춤추는 댄 스프레이",
@@ -51471,7 +51687,11 @@
         "es-ES": "Epílogo: Grafiti Agrietado",
         "es-MX": "Spray Epílogo: Reventado",
         "fr-FR": "Graffiti Épilogue : Oups",
+<<<<<<< HEAD
         "id-ID": "Spray Epilogue: Cracked",
+=======
+        "id-ID": "Epilogue: Spray Cracked",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Epilogo: Frittata",
         "ja-JP": "エピローグ: クラック スプレー",
         "ko-KR": "에필로그: 균열 스프레이",
@@ -51496,7 +51716,11 @@
         "es-ES": "Grafiti ¿Gran pérdida?",
         "es-MX": "Spray ¿Muy Reducido?",
         "fr-FR": "Graffiti Grandement réduit ?",
+<<<<<<< HEAD
         "id-ID": "Spray Greatly Decreased?",
+=======
+        "id-ID": "Greatly Decreased? Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Notevolmente diminuito?",
         "ja-JP": "大幅低下？スプレー",
         "ko-KR": "대폭 감소 스프레이",
@@ -51546,7 +51770,11 @@
         "es-ES": "Grafiti ¡Killjoy! ¡Te elijo a ti!",
         "es-MX": "Spray ¡Killjoy! ¡Yo te elijo!",
         "fr-FR": "Graffiti Killjoy ! Je te choisis !",
+<<<<<<< HEAD
         "id-ID": "Spray Killjoy! I Choose You!",
+=======
+        "id-ID": "Killjoy! I Choose You! Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Killjoy! Scelgo te!",
         "ja-JP": "君に決めた！スプレー",
         "ko-KR": "킬조이를 선택할게! 스프레이",
@@ -51771,7 +51999,11 @@
         "es-ES": "Grafiti ¿Gran aumento?",
         "es-MX": "Spray ¿Muy Aumentado?",
         "fr-FR": "Graffiti Grandement augmenté ?",
+<<<<<<< HEAD
         "id-ID": "Spray Greatly Increased? ",
+=======
+        "id-ID": "Greatly Increased? Spray",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Spray Notevolmente aumentato?",
         "ja-JP": "大幅上昇？スプレー",
         "ko-KR": "대폭 증가 스프레이",
@@ -53171,11 +53403,19 @@
         "es-ES": "Grafiti de Cypher VALORANT GO! Vol. 1",
         "es-MX": "Spray Cypher VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Cypher (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Cypher",
         "it-IT": "Spray Cypher VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 サイファー スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 사이퍼 스프레이",
         "pl-PL": "Graffiti „Cypher VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Cypher",
+        "it-IT": "Spray Cypher VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 サイファー スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 사이퍼 스프레이",
+        "pl-PL": "Graffiti Cyphera „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Cypher VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Cypher\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Cypher",
@@ -53196,11 +53436,19 @@
         "es-ES": "Grafiti de Jett VALORANT GO! Vol. 1",
         "es-MX": "Spray Jett VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Jett (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Jett",
         "it-IT": "Spray Jett VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 ジェット スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 제트 스프레이",
         "pl-PL": "Graffiti „Jett VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Jett",
+        "it-IT": "Spray Jett VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 ジェット スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 제트 스프레이",
+        "pl-PL": "Graffiti Jett „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Jett VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Jett\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Jett",
@@ -53221,11 +53469,19 @@
         "es-ES": "Grafiti de Killjoy VALORANT GO! Vol. 1",
         "es-MX": "Spray Killjoy VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Killjoy (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Killjoy",
         "it-IT": "Spray Killjoy VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 キルジョイ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 킬조이 스프레이",
         "pl-PL": "Graffiti „Killjoy VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Killjoy",
+        "it-IT": "Spray Killjoy VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 キルジョイ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 킬조이 스프레이",
+        "pl-PL": "Graffiti Killjoy „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Killjoy VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Killjoy\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Killjoy",
@@ -53246,11 +53502,19 @@
         "es-ES": "Grafiti de Reyna VALORANT GO! Vol. 1",
         "es-MX": "Spray Reyna VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Reyna (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Reyna",
         "it-IT": "Spray Reyna VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 レイナ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 레이나 스프레이",
         "pl-PL": "Graffiti „Reyna VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Reyna",
+        "it-IT": "Spray Reyna VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 レイナ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 레이나 스프레이",
+        "pl-PL": "Graffiti Reyny „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Reyna VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Reyna\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Reyna",
@@ -53271,11 +53535,19 @@
         "es-ES": "Grafiti de Sage VALORANT GO! Vol. 1",
         "es-MX": "Spray Sage VALORANT GO! Vol. 1",
         "fr-FR": "Graffiti Sage (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Spray VALORANT GO! Vol. 1 Sage",
         "it-IT": "Spray Sage VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 セージ スプレー",
         "ko-KR": "발로란트 GO! Vol. 1 세이지 스프레이",
         "pl-PL": "Graffiti „Sage VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Spray Vol. 1 Sage",
+        "it-IT": "Spray Sage VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 セージ スプレー",
+        "ko-KR": "발로란트 GO! Vol. 1 세이지 스프레이",
+        "pl-PL": "Graffiti Sage „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Spray Sage VALORANT GO! Vol. 1",
         "ru-RU": "Граффити \"VALORANT GO! Вып. 1 - Sage\"",
         "th-TH": "สเปรย์ VALORANT GO! Vol. 1 Sage",
@@ -53471,7 +53743,11 @@
         "es-ES": "Grafiti del EP. 2, Glitchpop",
         "es-MX": "Spray Glitchpop, EP 2",
         "fr-FR": "Graffiti Glitchpop, ÉP 2",
+<<<<<<< HEAD
         "id-ID": "Spray Glitchpop, EP 2",
+=======
+        "id-ID": "Glitchpop, Spray EP 2",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Glitchpop, spray EP 2",
         "ja-JP": "グリッチポップ EP 2 スプレー",
         "ko-KR": "글리치팝 에피소드 2 스프레이",
@@ -54390,6 +54666,7 @@
   ],
   "charms": [
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Buddy",
       "localizedNames": {
         "ar-AE": "ملحق آر جي إكس 11زي برو",
@@ -54415,6 +54692,8 @@
       "assetName": "Default__GunBuddy_Afterglow_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Zedd Buddy",
       "localizedNames": {
         "ar-AE": "ملحق Zedd",
@@ -54623,7 +54902,11 @@
         "es-ES": "Epílogo: Amuleto Moneda de Bruno",
         "es-MX": "Epílogo: Buddy Moneda de Bruno",
         "fr-FR": "Porte-bonheur Épilogue : Pièce de Bruno",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilogue: Bruno Coin",
+=======
+        "id-ID": "Epilogue: Gantungan Bruno Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Epilogo: Accessorio Moneta Bruno",
         "ja-JP": "エピローグ: ブルーノコイン バディー",
         "ko-KR": "에필로그: 브루노 코인 총기 장식",
@@ -54698,11 +54981,19 @@
         "es-ES": "Amuleto Cypher VALORANT GO! Vol. 1",
         "es-MX": "Buddy Cypher VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Cypher (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Cypher",
         "it-IT": "Accessorio Cypher VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 サイファー バディー",
         "ko-KR": "발로란트 GO! Vol. 1 사이퍼 총기 장식",
         "pl-PL": "Przywieszka „Cypher VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Cypher",
+        "it-IT": "Accessorio Cypher VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 サイファー バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 사이퍼 총기 장식",
+        "pl-PL": "Przywieszka Cyphera „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Cypher VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Cypher\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Cypher",
@@ -54723,11 +55014,19 @@
         "es-ES": "Amuleto Jett VALORANT GO! Vol. 1",
         "es-MX": "Buddy Jett VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Jett (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Jett",
         "it-IT": "Accessorio Jett VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 ジェット バディー",
         "ko-KR": "발로란트 GO! Vol. 1 제트 총기 장식",
         "pl-PL": "Przywieszka „Jett VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Jett",
+        "it-IT": "Accessorio Jett VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 ジェット バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 제트 총기 장식",
+        "pl-PL": "Przywieszka Jett „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Jett VALORANT GO! Vol. 1 ",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Jett\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Jett",
@@ -54748,11 +55047,19 @@
         "es-ES": "Amuleto Killjoy VALORANT GO! Vol. 1",
         "es-MX": "Buddy Killjoy VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Killjoy (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Killjoy",
         "it-IT": "Accessorio Killjoy VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 キルジョイ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 킬조이 총기 장식",
         "pl-PL": "Przywieszka „Killjoy VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Killjoy",
+        "it-IT": "Accessorio Killjoy VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 キルジョイ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 킬조이 총기 장식",
+        "pl-PL": "Przywieszka Killjoy „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Killjoy VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Killjoy\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Killjoy",
@@ -54823,11 +55130,19 @@
         "es-ES": "Amuleto Reyna VALORANT GO! Vol. 1",
         "es-MX": "Buddy Reyna VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Reyna (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Reyna",
         "it-IT": "Accessorio Reyna VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 レイナ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 레이나 총기 장식",
         "pl-PL": "Przywieszka „Reyna VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Reyna",
+        "it-IT": "Accessorio Reyna VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 レイナ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 레이나 총기 장식",
+        "pl-PL": "Przywieszka Reyny „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Reyna VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Reyna\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Reyna",
@@ -54848,11 +55163,19 @@
         "es-ES": "Amuleto Sage VALORANT GO! Vol. 1",
         "es-MX": "Buddy Sage VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Sage (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Sage",
         "it-IT": "Accessorio Sage VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 セージ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 세이지 총기 장식",
         "pl-PL": "Przywieszka „Sage VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Sage",
+        "it-IT": "Accessorio Sage VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 セージ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 세이지 총기 장식",
+        "pl-PL": "Przywieszka Sage „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Sage VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Sage\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Sage",
@@ -55023,7 +55346,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 1",
         "es-MX": "Buddy Moneda EP 1 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 1 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 1",
         "ja-JP": "EP 1 // 1 コイン バディー",
         "ko-KR": "에피소드 1 // 1 코인 총기 장식",
@@ -55048,7 +55375,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 2",
         "es-MX": "Buddy Moneda EP 1 // 2",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 2 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 2 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 2",
         "ja-JP": "EP 1 // 2 コイン バディー",
         "ko-KR": "에피소드 1 // 2 코인 총기 장식",
@@ -55073,7 +55404,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 3",
         "es-MX": "Buddy Moneda EP 1 // 3",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 3",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 3 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 3 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 3",
         "ja-JP": "EP 1 // 3 コイン バディー",
         "ko-KR": "에피소드 1 // 3 코인 총기 장식",
@@ -55098,7 +55433,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 1",
         "es-MX": "Buddy Moneda EP 2 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 1 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 1",
         "ja-JP": "EP 2 // 1 コイン バディー",
         "ko-KR": "에피소드 2 // 1 코인 총기 장식",
@@ -55123,7 +55462,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 2",
         "es-MX": "Buddy Moneda EP 2 // 2",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 2 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 2 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 2",
         "ja-JP": "EP 2 // 2 コイン バディー",
         "ko-KR": "에피소드 2 // 2 코인 총기 장식",
@@ -55148,7 +55491,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 3",
         "es-MX": "Buddy Moneda EP 2 // 3",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 3",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 3 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 3 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 3",
         "ja-JP": "EP 2 // 3 コイン バディー",
         "ko-KR": "에피소드 2 // 3 코인 총기 장식",
@@ -55173,7 +55520,11 @@
         "es-ES": "Amuleto Moneda del EP. 3 // 1",
         "es-MX": "Buddy Moneda EP 3 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 3 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 3 // 1 Coin",
+=======
+        "id-ID": "EP 3 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta 1 // EP 3",
         "ja-JP": "EP 3 // 1 コイン バディー",
         "ko-KR": "에피소드 3 // 1 코인 총기 장식",
@@ -55398,7 +55749,11 @@
         "es-ES": "Amuleto del EP. 2, Glitchpop",
         "es-MX": "Buddy Glitchpop, EP 2",
         "fr-FR": "Porte-bonheur Glitchpop, ÉP 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan Glitchpop, EP 2",
+=======
+        "id-ID": "Glitchpop, Gantungan EP 2",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Glitchpop, accessorio EP 2",
         "ja-JP": "グリッチポップ EP 2 バディー",
         "ko-KR": "글리치팝 에피소드 2 총기 장식",
@@ -55498,7 +55853,11 @@
         "es-ES": "Epílogo: Amuleto Discotecno",
         "es-MX": "Epílogo: Buddy Disco",
         "fr-FR": "Porte-bonheur Épilogue : Discotech",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilog: Discotech",
+=======
+        "id-ID": "Epilog: Gantungan Discotech",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Epilogo: Discotech",
         "ja-JP": "エピローグ: ディスコ バディー",
         "ko-KR": "에필로그: 디스코테크 총기 장식",
@@ -57173,7 +57532,11 @@
         "es-ES": "Amuleto de Bronce del EP. 1",
         "es-MX": "Buddy EP1: Bronce",
         "fr-FR": "Porte-bonheur ÉP 1 : Bronze",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Bronze",
+=======
+        "id-ID": "EP1: Gantungan Bronze",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP1: Bronzo",
         "ja-JP": "EP1: ブロンズ バディー",
         "ko-KR": "에피소드 1: 브론즈 총기 장식",
@@ -57198,7 +57561,11 @@
         "es-ES": "Amuleto de Diamante del EP. 1",
         "es-MX": "Buddy EP1: Diamante",
         "fr-FR": "Porte-bonheur ÉP 1 : Diamant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Diamond",
+=======
+        "id-ID": "EP1: Gantungan Diamond",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Diamante",
         "ja-JP": "EP1: ダイヤモンド バディー",
         "ko-KR": "에피소드 1: 다이아몬드 총기 장식",
@@ -57223,7 +57590,11 @@
         "es-ES": "Amuleto de Oro del EP. 1",
         "es-MX": "Buddy EP1: Oro",
         "fr-FR": "Porte-bonheur ÉP 1 : Or",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Gold",
+=======
+        "id-ID": "EP1: Gantungan Gold",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Oro",
         "ja-JP": "EP1: ゴールド バディー",
         "ko-KR": "에피소드 1: 골드 총기 장식",
@@ -57248,7 +57619,11 @@
         "es-ES": "Amuleto de Inmortal del EP. 1",
         "es-MX": "Buddy EP1: Inmortal",
         "fr-FR": "Porte-bonheur ÉP 1 : Immortel",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Immortal",
+=======
+        "id-ID": "EP1: Gantungan Immortal",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Immortale",
         "ja-JP": "EP1: イモータル バディー",
         "ko-KR": "에피소드 1: 불멸 총기 장식",
@@ -57273,7 +57648,11 @@
         "es-ES": "Amuleto de Hierro del EP. 1",
         "es-MX": "Buddy EP1: Hierro",
         "fr-FR": "Porte-bonheur ÉP 1 : Fer",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Iron",
+=======
+        "id-ID": "EP1: Gantungan Iron",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Ferro",
         "ja-JP": "EP1: アイアン バディー",
         "ko-KR": "에피소드 1: 아이언 총기 장식",
@@ -57298,7 +57677,11 @@
         "es-ES": "Amuleto de Platino del EP. 1",
         "es-MX": "Buddy EP1: Platino",
         "fr-FR": "Porte-bonheur ÉP 1 : Platine",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Platinum",
+=======
+        "id-ID": "EP1: Gantungan Platinum",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Platino",
         "ja-JP": "EP1: プラチナ バディー",
         "ko-KR": "에피소드 1: 플래티넘 총기 장식",
@@ -57323,7 +57706,11 @@
         "es-ES": "Amuleto de Radiante del EP. 1",
         "es-MX": "Buddy EP1: Radiante",
         "fr-FR": "Porte-bonheur ÉP 1 : Radiant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Radiant",
+=======
+        "id-ID": "EP1: Gantungan Radiant",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP1: Radiante",
         "ja-JP": "EP1: レディアント バディー",
         "ko-KR": "에피소드 1: 레디언트 총기 장식",
@@ -57348,7 +57735,11 @@
         "es-ES": "Amuleto de Plata del EP. 1",
         "es-MX": "Buddy EP1: Plata",
         "fr-FR": "Porte-bonheur ÉP 1 : Argent",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Silver",
+=======
+        "id-ID": "EP1: Gantungan Silver",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Argento",
         "ja-JP": "EP1: シルバー バディー",
         "ko-KR": "에피소드 1: 실버 총기 장식",
@@ -57373,7 +57764,11 @@
         "es-ES": "Amuleto de Bronce del EP. 2",
         "es-MX": "Buddy EP2: Bronce",
         "fr-FR": "Porte-bonheur ÉP 2 : Bronze",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Bronze",
+=======
+        "id-ID": "EP2: Gantungan Bronze",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Bronzo",
         "ja-JP": "EP2: ブロンズ バディー",
         "ko-KR": "에피소드 2: 브론즈 총기 장식",
@@ -57423,7 +57818,11 @@
         "es-ES": "Amuleto de Oro del EP. 2",
         "es-MX": "Buddy EP2: Oro",
         "fr-FR": "Porte-bonheur ÉP 2 : Or",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Gold",
+=======
+        "id-ID": "EP2: Gantungan Gold",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Oro",
         "ja-JP": "EP2: ゴールド バディー",
         "ko-KR": "에피소드 2: 골드 총기 장식",
@@ -57448,7 +57847,11 @@
         "es-ES": "Amuleto de Inmortal del EP. 2",
         "es-MX": "Buddy EP2: Inmortal",
         "fr-FR": "Porte-bonheur ÉP 2 : Immortel",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Immortal",
+=======
+        "id-ID": "EP2: Gantungan Immortal",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Immortale",
         "ja-JP": "EP2: イモータル バディー",
         "ko-KR": "에피소드 2: 불멸 총기 장식",
@@ -57473,7 +57876,11 @@
         "es-ES": "Amuleto de Hierro del EP. 2",
         "es-MX": "Buddy EP2: Hierro",
         "fr-FR": "Porte-bonheur ÉP 2 : Fer",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Iron",
+=======
+        "id-ID": "EP2: Gantungan Iron",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Ferro",
         "ja-JP": "EP2: アイアン バディー",
         "ko-KR": "에피소드 2: 아이언 총기 장식",
@@ -57498,7 +57905,11 @@
         "es-ES": "Amuleto de Platino del EP. 2",
         "es-MX": "Buddy EP2: Platino",
         "fr-FR": "Porte-bonheur ÉP 2 : Platine",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Platinum",
+=======
+        "id-ID": "EP2: Gantungan Platinum",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Platino",
         "ja-JP": "EP2: プラチナ バディー",
         "ko-KR": "에피소드 2: 플래티넘 총기 장식",
@@ -57523,7 +57934,11 @@
         "es-ES": "Amuleto de Radiante del EP. 2",
         "es-MX": "Buddy EP2: Radiante",
         "fr-FR": "Porte-bonheur ÉP 2 : Radiant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Radiant",
+=======
+        "id-ID": "EP2: Gantungan Radiant",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Radiante",
         "ja-JP": "EP2: レディアント バディー",
         "ko-KR": "에피소드 2: 레디언트 총기 장식",
@@ -57548,7 +57963,11 @@
         "es-ES": "Amuleto de Plata del EP. 2",
         "es-MX": "Buddy EP2: Plata",
         "fr-FR": "Porte-bonheur ÉP 2 : Argent",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Silver",
+=======
+        "id-ID": "EP2: Gantungan Silver",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Argento",
         "ja-JP": "EP2: シルバー バディー",
         "ko-KR": "에피소드 2: 실버 총기 장식",
@@ -57698,7 +58117,11 @@
         "es-ES": "Epílogo: Amuleto Salero",
         "es-MX": "Epílogo: Buddy Salero",
         "fr-FR": "Porte-bonheur Épilogue : Salière",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilogue: Salt Shaker",
+=======
+        "id-ID": "Epilogue: Gantungan Salt Shaker",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Epilogo: Saliera",
         "ja-JP": "エピローグ: ソルトシェーカー バディー",
         "ko-KR": "에필로그: 소금통 총기 장식",
@@ -58442,6 +58865,7 @@
   ],
   "charmLevels": [
     {
+<<<<<<< HEAD
       "name": "RGX 11z Pro Buddy",
       "localizedNames": {
         "ar-AE": "ملحق آر جي إكس 11زي برو",
@@ -58467,6 +58891,8 @@
       "assetName": "Default__GunBuddy_Afterglow_Lv1_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Zedd Buddy",
       "localizedNames": {
         "ar-AE": "ملحق Zedd",
@@ -58675,7 +59101,11 @@
         "es-ES": "Epílogo: Amuleto Moneda de Bruno",
         "es-MX": "Epílogo: Buddy Moneda de Bruno",
         "fr-FR": "Porte-bonheur Épilogue : Pièce de Bruno",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilogue: Bruno Coin",
+=======
+        "id-ID": "Epilogue: Gantungan Bruno Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Epilogo: Accessorio Moneta Bruno",
         "ja-JP": "エピローグ: ブルーノコイン バディー",
         "ko-KR": "에필로그: 브루노 코인 총기 장식",
@@ -58750,11 +59180,19 @@
         "es-ES": "Amuleto Cypher VALORANT GO! Vol. 1",
         "es-MX": "Buddy Cypher VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Cypher (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Cypher",
         "it-IT": "Accessorio Cypher VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 サイファー バディー",
         "ko-KR": "발로란트 GO! Vol. 1 사이퍼 총기 장식",
         "pl-PL": "Przywieszka „Cypher VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Cypher",
+        "it-IT": "Accessorio Cypher VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 サイファー バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 사이퍼 총기 장식",
+        "pl-PL": "Przywieszka Cyphera „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Cypher VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Cypher\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Cypher",
@@ -58775,11 +59213,19 @@
         "es-ES": "Amuleto Jett VALORANT GO! Vol. 1",
         "es-MX": "Buddy Jett VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Jett (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Jett",
         "it-IT": "Accessorio Jett VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 ジェット バディー",
         "ko-KR": "발로란트 GO! Vol. 1 제트 총기 장식",
         "pl-PL": "Przywieszka „Jett VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Jett",
+        "it-IT": "Accessorio Jett VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 ジェット バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 제트 총기 장식",
+        "pl-PL": "Przywieszka Jett „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Jett VALORANT GO! Vol. 1 ",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Jett\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Jett",
@@ -58800,11 +59246,19 @@
         "es-ES": "Amuleto Killjoy VALORANT GO! Vol. 1",
         "es-MX": "Buddy Killjoy VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Killjoy (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Killjoy",
         "it-IT": "Accessorio Killjoy VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 キルジョイ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 킬조이 총기 장식",
         "pl-PL": "Przywieszka „Killjoy VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Killjoy",
+        "it-IT": "Accessorio Killjoy VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 キルジョイ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 킬조이 총기 장식",
+        "pl-PL": "Przywieszka Killjoy „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Killjoy VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Killjoy\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Killjoy",
@@ -58875,11 +59329,19 @@
         "es-ES": "Amuleto Reyna VALORANT GO! Vol. 1",
         "es-MX": "Buddy Reyna VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Reyna (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Reyna",
         "it-IT": "Accessorio Reyna VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 レイナ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 레이나 총기 장식",
         "pl-PL": "Przywieszka „Reyna VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Reyna",
+        "it-IT": "Accessorio Reyna VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 レイナ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 레이나 총기 장식",
+        "pl-PL": "Przywieszka Reyny „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Reyna VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Reyna\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Reyna",
@@ -58900,11 +59362,19 @@
         "es-ES": "Amuleto Sage VALORANT GO! Vol. 1",
         "es-MX": "Buddy Sage VALORANT GO! Vol. 1",
         "fr-FR": "Porte-bonheur Sage (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Gantungan VALORANT GO! Vol. 1 Sage",
         "it-IT": "Accessorio Sage VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 セージ バディー",
         "ko-KR": "발로란트 GO! Vol. 1 세이지 총기 장식",
         "pl-PL": "Przywieszka „Sage VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Gantungan Vol. 1 Sage",
+        "it-IT": "Accessorio Sage VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 セージ バディー",
+        "ko-KR": "발로란트 GO! Vol. 1 세이지 총기 장식",
+        "pl-PL": "Przywieszka Sage „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Chaveiro Sage VALORANT GO! Vol. 1",
         "ru-RU": "Брелок \"VALORANT GO! Вып. 1 - Sage\"",
         "th-TH": "บัดดี้ VALORANT GO! Vol. 1 Sage",
@@ -59075,7 +59545,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 1",
         "es-MX": "Buddy Moneda EP 1 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 1 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 1",
         "ja-JP": "EP 1 // 1 コイン バディー",
         "ko-KR": "에피소드 1 // 1 코인 총기 장식",
@@ -59100,7 +59574,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 2",
         "es-MX": "Buddy Moneda EP 1 // 2",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 2 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 2 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 2",
         "ja-JP": "EP 1 // 2 コイン バディー",
         "ko-KR": "에피소드 1 // 2 코인 총기 장식",
@@ -59125,7 +59603,11 @@
         "es-ES": "Amuleto Moneda del EP. 1 // 3",
         "es-MX": "Buddy Moneda EP 1 // 3",
         "fr-FR": "Porte-bonheur Pièce ÉP 1 // 3",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 1 // 3 Coin",
+=======
+        "id-ID": "EP 1 // Gantungan 3 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 1 // 3",
         "ja-JP": "EP 1 // 3 コイン バディー",
         "ko-KR": "에피소드 1 // 3 코인 총기 장식",
@@ -59150,7 +59632,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 1",
         "es-MX": "Buddy Moneda EP 2 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 1 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 1",
         "ja-JP": "EP 2 // 1 コイン バディー",
         "ko-KR": "에피소드 2 // 1 코인 총기 장식",
@@ -59175,7 +59661,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 2",
         "es-MX": "Buddy Moneda EP 2 // 2",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 2 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 2 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 2",
         "ja-JP": "EP 2 // 2 コイン バディー",
         "ko-KR": "에피소드 2 // 2 코인 총기 장식",
@@ -59200,7 +59690,11 @@
         "es-ES": "Amuleto Moneda del EP. 2 // 3",
         "es-MX": "Buddy Moneda EP 2 // 3",
         "fr-FR": "Porte-bonheur Pièce ÉP 2 // 3",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 2 // 3 Coin",
+=======
+        "id-ID": "EP 2 // Gantungan 3 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta EP 2 // 3",
         "ja-JP": "EP 2 // 3 コイン バディー",
         "ko-KR": "에피소드 2 // 3 코인 총기 장식",
@@ -59225,7 +59719,11 @@
         "es-ES": "Amuleto Moneda del EP. 3 // 1",
         "es-MX": "Buddy Moneda EP 3 // 1",
         "fr-FR": "Porte-bonheur Pièce ÉP 3 // 1",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP 3 // 1 Coin",
+=======
+        "id-ID": "EP 3 // Gantungan 1 Coin",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Moneta 1 // EP 3",
         "ja-JP": "EP 3 // 1 コイン バディー",
         "ko-KR": "에피소드 3 // 1 코인 총기 장식",
@@ -59450,7 +59948,11 @@
         "es-ES": "Amuleto del EP. 2, Glitchpop",
         "es-MX": "Buddy Glitchpop, EP 2",
         "fr-FR": "Porte-bonheur Glitchpop, ÉP 2",
+<<<<<<< HEAD
         "id-ID": "Gantungan Glitchpop, EP 2",
+=======
+        "id-ID": "Glitchpop, Gantungan EP 2",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Glitchpop, accessorio EP 2",
         "ja-JP": "グリッチポップ EP 2 バディー",
         "ko-KR": "글리치팝 에피소드 2 총기 장식",
@@ -59550,7 +60052,11 @@
         "es-ES": "Epílogo: Amuleto Discotecno",
         "es-MX": "Epílogo: Buddy Disco",
         "fr-FR": "Porte-bonheur Épilogue : Discotech",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilog: Discotech",
+=======
+        "id-ID": "Epilog: Gantungan Discotech",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Epilogo: Discotech",
         "ja-JP": "エピローグ: ディスコ バディー",
         "ko-KR": "에필로그: 디스코테크 총기 장식",
@@ -61225,7 +61731,11 @@
         "es-ES": "Amuleto de Bronce del EP. 1",
         "es-MX": "Buddy EP1: Bronce",
         "fr-FR": "Porte-bonheur ÉP 1 : Bronze",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Bronze",
+=======
+        "id-ID": "EP1: Gantungan Bronze",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP1: Bronzo",
         "ja-JP": "EP1: ブロンズ バディー",
         "ko-KR": "에피소드 1: 브론즈 총기 장식",
@@ -61250,7 +61760,11 @@
         "es-ES": "Amuleto de Diamante del EP. 1",
         "es-MX": "Buddy EP1: Diamante",
         "fr-FR": "Porte-bonheur ÉP 1 : Diamant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Diamond",
+=======
+        "id-ID": "EP1: Gantungan Diamond",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Diamante",
         "ja-JP": "EP1: ダイヤモンド バディー",
         "ko-KR": "에피소드 1: 다이아몬드 총기 장식",
@@ -61275,7 +61789,11 @@
         "es-ES": "Amuleto de Oro del EP. 1",
         "es-MX": "Buddy EP1: Oro",
         "fr-FR": "Porte-bonheur ÉP 1 : Or",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Gold",
+=======
+        "id-ID": "EP1: Gantungan Gold",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Oro",
         "ja-JP": "EP1: ゴールド バディー",
         "ko-KR": "에피소드 1: 골드 총기 장식",
@@ -61300,7 +61818,11 @@
         "es-ES": "Amuleto de Inmortal del EP. 1",
         "es-MX": "Buddy EP1: Inmortal",
         "fr-FR": "Porte-bonheur ÉP 1 : Immortel",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Immortal",
+=======
+        "id-ID": "EP1: Gantungan Immortal",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Immortale",
         "ja-JP": "EP1: イモータル バディー",
         "ko-KR": "에피소드 1: 불멸 총기 장식",
@@ -61325,7 +61847,11 @@
         "es-ES": "Amuleto de Hierro del EP. 1",
         "es-MX": "Buddy EP1: Hierro",
         "fr-FR": "Porte-bonheur ÉP 1 : Fer",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Iron",
+=======
+        "id-ID": "EP1: Gantungan Iron",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Ferro",
         "ja-JP": "EP1: アイアン バディー",
         "ko-KR": "에피소드 1: 아이언 총기 장식",
@@ -61350,7 +61876,11 @@
         "es-ES": "Amuleto de Platino del EP. 1",
         "es-MX": "Buddy EP1: Platino",
         "fr-FR": "Porte-bonheur ÉP 1 : Platine",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Platinum",
+=======
+        "id-ID": "EP1: Gantungan Platinum",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Platino",
         "ja-JP": "EP1: プラチナ バディー",
         "ko-KR": "에피소드 1: 플래티넘 총기 장식",
@@ -61375,7 +61905,11 @@
         "es-ES": "Amuleto de Radiante del EP. 1",
         "es-MX": "Buddy EP1: Radiante",
         "fr-FR": "Porte-bonheur ÉP 1 : Radiant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Radiant",
+=======
+        "id-ID": "EP1: Gantungan Radiant",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP1: Radiante",
         "ja-JP": "EP1: レディアント バディー",
         "ko-KR": "에피소드 1: 레디언트 총기 장식",
@@ -61400,7 +61934,11 @@
         "es-ES": "Amuleto de Plata del EP. 1",
         "es-MX": "Buddy EP1: Plata",
         "fr-FR": "Porte-bonheur ÉP 1 : Argent",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP1: Silver",
+=======
+        "id-ID": "EP1: Gantungan Silver",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "EP1: accessorio Argento",
         "ja-JP": "EP1: シルバー バディー",
         "ko-KR": "에피소드 1: 실버 총기 장식",
@@ -61425,7 +61963,11 @@
         "es-ES": "Amuleto de Bronce del EP. 2",
         "es-MX": "Buddy EP2: Bronce",
         "fr-FR": "Porte-bonheur ÉP 2 : Bronze",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Bronze",
+=======
+        "id-ID": "EP2: Gantungan Bronze",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Bronzo",
         "ja-JP": "EP2: ブロンズ バディー",
         "ko-KR": "에피소드 2: 브론즈 총기 장식",
@@ -61475,7 +62017,11 @@
         "es-ES": "Amuleto de Oro del EP. 2",
         "es-MX": "Buddy EP2: Oro",
         "fr-FR": "Porte-bonheur ÉP 2 : Or",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Gold",
+=======
+        "id-ID": "EP2: Gantungan Gold",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Oro",
         "ja-JP": "EP2: ゴールド バディー",
         "ko-KR": "에피소드 2: 골드 총기 장식",
@@ -61500,7 +62046,11 @@
         "es-ES": "Amuleto de Inmortal del EP. 2",
         "es-MX": "Buddy EP2: Inmortal",
         "fr-FR": "Porte-bonheur ÉP 2 : Immortel",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Immortal",
+=======
+        "id-ID": "EP2: Gantungan Immortal",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Immortale",
         "ja-JP": "EP2: イモータル バディー",
         "ko-KR": "에피소드 2: 불멸 총기 장식",
@@ -61525,7 +62075,11 @@
         "es-ES": "Amuleto de Hierro del EP. 2",
         "es-MX": "Buddy EP2: Hierro",
         "fr-FR": "Porte-bonheur ÉP 2 : Fer",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Iron",
+=======
+        "id-ID": "EP2: Gantungan Iron",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Ferro",
         "ja-JP": "EP2: アイアン バディー",
         "ko-KR": "에피소드 2: 아이언 총기 장식",
@@ -61550,7 +62104,11 @@
         "es-ES": "Amuleto de Platino del EP. 2",
         "es-MX": "Buddy EP2: Platino",
         "fr-FR": "Porte-bonheur ÉP 2 : Platine",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Platinum",
+=======
+        "id-ID": "EP2: Gantungan Platinum",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Platino",
         "ja-JP": "EP2: プラチナ バディー",
         "ko-KR": "에피소드 2: 플래티넘 총기 장식",
@@ -61575,7 +62133,11 @@
         "es-ES": "Amuleto de Radiante del EP. 2",
         "es-MX": "Buddy EP2: Radiante",
         "fr-FR": "Porte-bonheur ÉP 2 : Radiant",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Radiant",
+=======
+        "id-ID": "EP2: Gantungan Radiant",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Radiante",
         "ja-JP": "EP2: レディアント バディー",
         "ko-KR": "에피소드 2: 레디언트 총기 장식",
@@ -61600,7 +62162,11 @@
         "es-ES": "Amuleto de Plata del EP. 2",
         "es-MX": "Buddy EP2: Plata",
         "fr-FR": "Porte-bonheur ÉP 2 : Argent",
+<<<<<<< HEAD
         "id-ID": "Gantungan EP2: Silver",
+=======
+        "id-ID": "EP2: Gantungan Silver",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio EP2: Argento",
         "ja-JP": "EP2: シルバー バディー",
         "ko-KR": "에피소드 2: 실버 총기 장식",
@@ -61750,7 +62316,11 @@
         "es-ES": "Epílogo: Amuleto Salero",
         "es-MX": "Epílogo: Buddy Salero",
         "fr-FR": "Porte-bonheur Épilogue : Salière",
+<<<<<<< HEAD
         "id-ID": "Gantungan Epilogue: Salt Shaker",
+=======
+        "id-ID": "Epilogue: Gantungan Salt Shaker",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Accessorio Epilogo: Saliera",
         "ja-JP": "エピローグ: ソルトシェーカー バディー",
         "ko-KR": "에필로그: 소금통 총기 장식",
@@ -63052,7 +63622,11 @@
         "es-ES": "Epílogo: Tarjeta VERSUS // Vandal + Phantom",
         "es-MX": "Epílogo: VERSUS // Tarjeta Vandal + Phantom",
         "fr-FR": "Carte Épilogue : VERSUS // Vandal + Phantom",
+<<<<<<< HEAD
         "id-ID": "Kartu Epilog: VERSUS // Vandal + Phantom",
+=======
+        "id-ID": "Epilog: Kartu VERSUS // Vandal + Phantom",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Epilogo: VERSUS // Vandal e Phantom",
         "ja-JP": "エピローグ: VERSUS // ヴァンダル + ファントム カード",
         "ko-KR": "에필로그: VS // 밴달 + 팬텀 카드",
@@ -63227,7 +63801,11 @@
         "es-ES": "Tarjeta de la beta de VALORANT",
         "es-MX": "Tarjeta Beta de VALORANT",
         "fr-FR": "Carte Bêta de VALORANT",
+<<<<<<< HEAD
         "id-ID": "Kartu VALORANT Beta",
+=======
+        "id-ID": "Kartu Beta VALORANT",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Beta di VALORANT",
         "ja-JP": "VALORANT ベータ カード",
         "ko-KR": "발로란트 베타 카드",
@@ -63252,7 +63830,11 @@
         "es-ES": "Tarjeta Pionero de la beta",
         "es-MX": "Tarjeta Pionero de Beta",
         "fr-FR": "Carte Pionnier de la bêta",
+<<<<<<< HEAD
         "id-ID": "Kartu Beta Pioneer",
+=======
+        "id-ID": "Kartu Pionir Beta",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pioniere della beta",
         "ja-JP": "ベータパイオニア カード",
         "ko-KR": "베타 개척자 카드",
@@ -64131,7 +64713,11 @@
         "it-IT": "Carta MMXX EP1",
         "ja-JP": "MMXX EP1 カード",
         "ko-KR": "MMXX 에피소드 1 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „MMXX, ODC. 1”",
+=======
+        "pl-PL": "Karta „ODC.1 MMXX”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card MMXX EP1",
         "ru-RU": "Карточка \"ЭПИЗОД 1: MMXX\"",
         "th-TH": "การ์ด MMXX EP1",
@@ -64302,7 +64888,11 @@
         "es-ES": "Epílogo: Tarjeta Infinity",
         "es-MX": "Epílogo: Tarjeta Infinito",
         "fr-FR": "Carte Épilogue : Infini",
+<<<<<<< HEAD
         "id-ID": "Kartu Epilogue: Infinity",
+=======
+        "id-ID": "Epilogue: Kartu Infinity",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Epilogo: Infinito",
         "ja-JP": "エピローグ: インフィニティー カード",
         "ko-KR": "에필로그: 인피니티 카드",
@@ -64606,7 +65196,11 @@
         "it-IT": "Carta VERSUS // Bind e Icebox",
         "ja-JP": "VERSUS // バインド + アイスボックス カード",
         "ko-KR": "VS // 바인드 + 아이스박스 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „VERSUS // Bind + Icebox”",
+=======
+        "pl-PL": "VERSUS // Karta „Bind + Icebox”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card VERSUS // Bind + Icebox",
         "ru-RU": "Карточка \"Противостояние\" (Bind + Icebox)",
         "th-TH": "การ์ด VERSUS // Bind + Icebox",
@@ -64681,7 +65275,11 @@
         "it-IT": "Carta VERSUS // Sova e Cypher",
         "ja-JP": "VERSUS // ソーヴァ + サイファー カード",
         "ko-KR": "VS //소바 + 사이퍼 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „VERSUS // Sova + Cypher”",
+=======
+        "pl-PL": "VERSUS // Karta „Sova + Cypher”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card VERSUS // Sova + Cypher",
         "ru-RU": "Карточка \"Противостояние\" (Sova + Cypher)",
         "th-TH": "การ์ด VERSUS // Sova + Cypher",
@@ -64777,7 +65375,11 @@
         "es-ES": "Tarjeta Epílogo: ¡Buen trabajo, Paul!",
         "es-MX": "Epílogo: Tarjeta ¡Buen trabajo, Paul!",
         "fr-FR": "Carte Épilogue : Beau travail, Paul !",
+<<<<<<< HEAD
         "id-ID": "Kartu Epilogue: Good Job, Paul!",
+=======
+        "id-ID": "Epilogue: Kartu Good Job, Paul!",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Epilogo: Ben fatto, Paul!",
         "ja-JP": "エピローグ: GJ ポール カード",
         "ko-KR": "에필로그: 잘했어, 폴! 카드",
@@ -64952,7 +65554,11 @@
         "es-ES": "Epílogo: Tarjeta Recuerdos parte 1",
         "es-MX": "Epílogo: Tarjeta Recuerdos parte 1",
         "fr-FR": "Carte Épilogue : Mementos 1re partie",
+<<<<<<< HEAD
         "id-ID": "Kartu Epilogue: Mementos Pt. 1",
+=======
+        "id-ID": "Epilogue: Kartu Mementos Pt. 1",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Epilogo: Ricordi - Parte 1",
         "ja-JP": "エピローグ: メメント Pt. 1 カード",
         "ko-KR": "에필로그: 기념사진 파트 1 카드",
@@ -65731,7 +66337,11 @@
         "it-IT": "Carta Versus // Phoenix e Phoenix",
         "ja-JP": "VERSUS // フェニックス + フェニックス カード",
         "ko-KR": "VS // 피닉스 + 피닉스 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „VERSUS // Phoenix + Phoenix”",
+=======
+        "pl-PL": "Karta „Versus // Phoenix + Phoenix”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "CARD VERSUS // Phoenix + Phoenix",
         "ru-RU": "Карточка \"Противостояние\" (Phoenix + Phoenix)",
         "th-TH": "การ์ด Versus // Phoenix + Phoenix",
@@ -65852,7 +66462,11 @@
         "es-ES": "Epílogo: Tarjeta Cebo de diseño",
         "es-MX": "Epílogo: Tarjeta Diseño Señuelo",
         "fr-FR": "Carte Épilogue : Skin-appât",
+<<<<<<< HEAD
         "id-ID": "Kartu Epilogue: Skin Bait",
+=======
+        "id-ID": "Epilogue: Kartu Skin Bait",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Epilogo: Esca di pelle",
         "ja-JP": "エピローグ: スキンベイト カード",
         "ko-KR": "에필로그: 스킨 미끼 카드",
@@ -66006,7 +66620,11 @@
         "it-IT": "Carta VERSUS // Yoru e Phoenix",
         "ja-JP": "VERSUS // ヨル + フェニックス カード",
         "ko-KR": "VS // 요루 + 피닉스 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „VERSUS // Yoru + Phoenix”",
+=======
+        "pl-PL": "VERSUS // Karta „Yoru + Phoenix”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Versus // Yoru + Phoenix",
         "ru-RU": "Карточка \"Противостояние\" (Yoru + Phoenix)",
         "th-TH": "การ์ด Versus // Yoru + Phoenix",
@@ -66052,7 +66670,11 @@
         "es-ES": "Tarjeta Protocolo V",
         "es-MX": "Tarjeta Protocolo V",
         "fr-FR": "Carte Protocole V",
+<<<<<<< HEAD
         "id-ID": "Kartu V Protocol",
+=======
+        "id-ID": "Kartu Protokol V",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Protocollo V",
         "ja-JP": "Vプロトコル カード",
         "ko-KR": "V 프로토콜 카드",
@@ -66122,12 +66744,20 @@
       "name": "Pride // Rainbow Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // قوس قزح",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Regenbogen“",
+=======
+        "de-DE": "Pride // Banner „Regenbogen“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Rainbow Card",
         "es-ES": "Tarjeta Orgullo // Arcoíris",
         "es-MX": "Tarjeta Orgullo // Arcoíris",
         "fr-FR": "Carte Pride // Arc-en-ciel",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Chromatic",
+=======
+        "id-ID": "Jubilant Colors // Kartu Chromatic",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Arcobaleno",
         "ja-JP": "プライド // レインボー カード",
         "ko-KR": "자부심 // 무지개 카드",
@@ -66147,12 +66777,20 @@
       "name": "Pride // Cotton Candy Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // غزل البنات",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Zuckerwatte“",
+=======
+        "de-DE": "Pride // Banner „Zuckerwatte“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Cotton Candy Card",
         "es-ES": "Tarjeta Orgullo // Algodón de azúcar",
         "es-MX": "Tarjeta Orgullo // Algodón de Azúcar",
         "fr-FR": "Carte Pride // Barbe à papa",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Cotton Candy",
+=======
+        "id-ID": "Jubilant Colors // Kartu Cotton Candy",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Zucchero filato",
         "ja-JP": "プライド // コットンキャンディー カード",
         "ko-KR": "자부심 // 솜사탕 카드",
@@ -66172,12 +66810,20 @@
       "name": "Pride // Primary Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // الرئيسي",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//RGB“",
+=======
+        "de-DE": "Pride // Banner „RGB“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Primary Card",
         "es-ES": "Tarjeta Orgullo // Principal",
         "es-MX": "Tarjeta Orgullo // Primordial",
         "fr-FR": "Carte Pride // CMJN",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Primary",
+=======
+        "id-ID": "Jubilant Colors // Kartu Primary",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Colori primari",
         "ja-JP": "プライド // プライマリ カード",
         "ko-KR": "자부심 // 근원 카드",
@@ -66197,12 +66843,20 @@
       "name": "Pride // Galactic Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // المجرة",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Galaktisch“",
+=======
+        "de-DE": "Pride // Banner „Galaktisch“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Galactic Card",
         "es-ES": "Tarjeta Orgullo // Galaxia",
         "es-MX": "Tarjeta Orgullo // Galaxia",
         "fr-FR": "Carte Pride // Galactique",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Galactic",
+=======
+        "id-ID": "Jubilant Colors // Kartu Galactic",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Galattico",
         "ja-JP": "プライド // ギャラクティック カード",
         "ko-KR": "자부심 // 은하계 카드",
@@ -66222,12 +66876,20 @@
       "name": "Pride // Sunset Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // الغروب",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Sonnenuntergang“",
+=======
+        "de-DE": "Pride // Banner „Sonnenuntergang“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Sunset Card",
         "es-ES": "Tarjeta Orgullo // Ocaso",
         "es-MX": "Tarjeta Orgullo // Atardecer",
         "fr-FR": "Carte Pride // Coucher de soleil",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Sunset",
+=======
+        "id-ID": "Jubilant Colors // Kartu Sunset",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Tramonto",
         "ja-JP": "プライド // サンセット カード",
         "ko-KR": "자부심 // 일몰 카드",
@@ -66247,12 +66909,20 @@
       "name": "Pride // Twilight Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المبهجة // الغسق",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Abenddämmerung“",
+=======
+        "de-DE": "Pride // Banner „Abenddämmerung“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Twilight Card",
         "es-ES": "Tarjeta Orgullo // Crepúsculo",
         "es-MX": "Tarjeta Orgullo // Crepúsculo",
         "fr-FR": "Carte Pride // Crépuscule",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Twilight",
+=======
+        "id-ID": "Jubilant Colors // Kartu Twilight",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Crepuscolo",
         "ja-JP": "プライド // トワイライト カード",
         "ko-KR": "자부심 // 황혼 카드",
@@ -66272,12 +66942,20 @@
       "name": "Pride // Sherbet Card",
       "localizedNames": {
         "ar-AE": "بطاقة الألوان المهبجة // الشراب",
+<<<<<<< HEAD
         "de-DE": "Banner „Pride//Fruchteis“",
+=======
+        "de-DE": "Pride // Banner „Fruchteis“",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "en-US": "Pride // Sherbet Card",
         "es-ES": "Tarjeta Orgullo // Sorbete",
         "es-MX": "Tarjeta Orgullo // Sorbetto",
         "fr-FR": "Carte Pride // Crème glacée",
+<<<<<<< HEAD
         "id-ID": "Kartu Jubilant Colors // Sherbet",
+=======
+        "id-ID": "Jubilant Colors // Kartu Sherbet",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Carta Pride // Sorbetto",
         "ja-JP": "プライド // シャーベット カード",
         "ko-KR": "자부심 // 셔벗 카드",
@@ -66327,11 +67005,19 @@
         "es-ES": "Tarjeta de Cypher VALORANT GO! Vol. 1",
         "es-MX": "Tarjeta Cypher VALORANT GO! Vol. 1",
         "fr-FR": "Carte Cypher (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Kartu VALORANT GO! Vol. 1 Cypher",
         "it-IT": "Carta Cypher VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 サイファー カード",
         "ko-KR": "발로란트 GO! Vol. 1 사이퍼 카드",
         "pl-PL": "Karta „Cypher VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Kartu Vol. 1 Cypher",
+        "it-IT": "Carta Cypher VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 サイファー カード",
+        "ko-KR": "발로란트 GO! Vol. 1 사이퍼 카드",
+        "pl-PL": "Karta Cyphera „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Cypher VALORANT GO! Vol. 1",
         "ru-RU": "Карточка \"VALORANT GO! Вып. 1 - Cypher\"",
         "th-TH": "การ์ด VALORANT GO! Vol. 1 Cypher",
@@ -66352,11 +67038,19 @@
         "es-ES": "Tarjeta de Jett VALORANT GO! Vol. 1",
         "es-MX": "Tarjeta Jett VALORANT GO! Vol. 1",
         "fr-FR": "Carte Jett (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Kartu VALORANT GO! Vol. 1 Jett",
         "it-IT": "Carta Jett VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 ジェット カード",
         "ko-KR": "발로란트 GO! Vol. 1 제트 카드",
         "pl-PL": "Karta „Jett VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Kartu Vol. 1 Jett",
+        "it-IT": "Carta Jett VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 ジェット カード",
+        "ko-KR": "발로란트 GO! Vol. 1 제트 카드",
+        "pl-PL": "Karta Jett „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Jett VALORANT GO! Vol. 1",
         "ru-RU": "Карточка \"VALORANT GO! Вып. 1 - Jett\"",
         "th-TH": "การ์ด VALORANT GO! Vol. 1 Jett",
@@ -66381,7 +67075,11 @@
         "it-IT": "Carta Killjoy VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 キルジョイ カード",
         "ko-KR": "발로란트 GO! Vol. 1 킬조이 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „Killjoy VALORANT GO! – Tom 1”",
+=======
+        "pl-PL": "Karta Killjoy „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Killjoy VALORANT GO! Vol. 1",
         "ru-RU": "Карточка \"VALORANT GO! Вып. 1 – Killjoy\"",
         "th-TH": "การ์ด VALORANT GO! Vol. 1 Killjoy",
@@ -66406,7 +67104,11 @@
         "it-IT": "Carta Reyna VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 レイナ カード",
         "ko-KR": "발로란트 GO! Vol. 1 레이나 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „Reyna VALORANT GO! – Tom 1”",
+=======
+        "pl-PL": "Karta Reyny „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Reyna VALORANT GO! Vol. 1",
         "ru-RU": "Карточка \"VALORANT GO! Вып. 1 – Reyna\"",
         "th-TH": "การ์ด VALORANT GO! Vol. 1 Reyna",
@@ -66427,11 +67129,19 @@
         "es-ES": "Tarjeta de Sage VALORANT GO! Vol. 1",
         "es-MX": "Tarjeta Sage VALORANT GO! Vol. 1",
         "fr-FR": "Carte Sage (VALORANT GO! Vol. 1)",
+<<<<<<< HEAD
         "id-ID": "Kartu VALORANT GO! Vol. 1 Sage",
         "it-IT": "Carta Sage VALORANT GO! vol. 1",
         "ja-JP": "VALORANT GO! Vol.1 セージ カード",
         "ko-KR": "발로란트 GO! Vol. 1 세이지 카드",
         "pl-PL": "Karta „Sage VALORANT GO! – Tom 1”",
+=======
+        "id-ID": "VALORANT GO! Kartu Vol. 1 Sage",
+        "it-IT": "Carta Sage VALORANT GO! vol. 1",
+        "ja-JP": "VALORANT GO! Vol.1 セージ カード",
+        "ko-KR": "발로란트 GO! Vol. 1 세이지 카드",
+        "pl-PL": "Karta Sage „VALORANT GO! – Tom 1”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card Sage VALORANT GO! Vol. 1",
         "ru-RU": "Карточка \"VALORANT GO! Вып. 1 - Sage\"",
         "th-TH": "การ์ด VALORANT GO! Vol. 1 Sage",
@@ -66444,6 +67154,7 @@
       "assetName": "Default__Playercard_Anime_Sage_PrimaryAsset_C"
     },
     {
+<<<<<<< HEAD
       "name": "VALORANT GO! Vol. 2 Phoenix Card",
       "localizedNames": {
         "ar-AE": "VALORANT GO! الجزء 2 بطاقة فينيكس",
@@ -66569,6 +67280,8 @@
       "assetName": "Default__Playercard_Anime1-1Yoru_PrimaryAsset_C"
     },
     {
+=======
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
       "name": "Spectrum Card",
       "localizedNames": {
         "ar-AE": "بطاقة سبيكتروم",
@@ -66652,7 +67365,11 @@
         "es-ES": "Tarjeta del EP. 2, Glitchpop",
         "es-MX": "Tarjeta Glitchpop, EP 2",
         "fr-FR": "Carte Glitchpop, ÉP 2",
+<<<<<<< HEAD
         "id-ID": "Kartu Glitchpop, EP 2",
+=======
+        "id-ID": "Glitchpop, Kartu EP 2",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "it-IT": "Glitchpop, carta EP 2",
         "ja-JP": "グリッチポップ EP 2 カード",
         "ko-KR": "글리치팝 에피소드 2 카드",
@@ -67131,7 +67848,11 @@
         "it-IT": "Carta EP 3 // Riflesso",
         "ja-JP": "EP 3 // リフレクション カード",
         "ko-KR": "에피소드 3 // 리플렉션 카드",
+<<<<<<< HEAD
         "pl-PL": "Karta „ODC. 3 // Odbicie”",
+=======
+        "pl-PL": "ODC. 3 // Karta „Odbicie”",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "pt-BR": "Card EP 3 // Reflexão",
         "ru-RU": "Карточка \"ЭПИЗОД 3 // Отражение\"",
         "th-TH": "การ์ด EP 3 // Reflection",
@@ -68726,7 +69447,11 @@
         "ar-AE": "لقب غير عادل",
         "de-DE": "Titel „Geizhals“",
         "en-US": "Cheap Title",
+<<<<<<< HEAD
         "es-ES": "Título Sin rival",
+=======
+        "es-ES": "Título Tacaño",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "es-MX": "Título Injusto",
         "fr-FR": "Titre Hors pair",
         "id-ID": "Gelar Tak Seimbang",
@@ -68734,7 +69459,11 @@
         "ja-JP": "卑怯者 タイトル",
         "ko-KR": "비열 칭호",
         "pl-PL": "Tytuł „Podły”",
+<<<<<<< HEAD
         "pt-BR": "Título Injusto",
+=======
+        "pt-BR": "Título Barato",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "ru-RU": "Звание \"Халявщик\"",
         "th-TH": "ฉายาไม่แฟร์",
         "tr-TR": "Ucuzcu Unvanı",
@@ -68909,7 +69638,11 @@
         "ja-JP": "アライ タイトル",
         "ko-KR": "아군 칭호",
         "pl-PL": "Tytuł „Sojusznik”",
+<<<<<<< HEAD
         "pt-BR": "Título Aliade",
+=======
+        "pt-BR": "Título Aliado",
+>>>>>>> c7cd13ff207566000b8728fd1dec42550574f178
         "ru-RU": "Звание \"Союзник\"",
         "th-TH": "ฉายาพันธมิตร",
         "tr-TR": "Dost Unvanı",
