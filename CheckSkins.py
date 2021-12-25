@@ -16,24 +16,27 @@ with open("/root/ValorantSkinChecker/account.json") as f:
 async def run(account):
     session = aiohttp.ClientSession()
     data = {
-        'client_id': 'play-valorant-web-prod',
-        'nonce': '1',
-        'redirect_uri': 'https://playvalorant.com/opt_in',
-        'response_type': 'token id_token',
+        "client_id": "play-valorant-web-prod",
+        "nonce": "1",
+        "redirect_uri": "https://playvalorant.com/opt_in",
+        "response_type": "token id_token",
     }
     await session.post('https://auth.riotgames.com/api/v1/authorization', json=data)
 
     data = {
-        'type': 'auth',
-        'username': account['username'],
-        'password': account['password']
+        "type": "auth",
+        "username": account["username"],
+        "password": account["password"]
     }
     async with session.put('https://auth.riotgames.com/api/v1/authorization', json=data) as r:
         data = await r.json()
     # print(data)
     pattern = re.compile(
         'access_token=((?:[a-zA-Z]|\d|\.|-|_)*).*id_token=((?:[a-zA-Z]|\d|\.|-|_)*).*expires_in=(\d*)')
-    data = pattern.findall(data['response']['parameters']['uri'])[0]
+    try:
+        data = pattern.findall(data['response']['parameters']['uri'])[0]
+    except:
+        return
     access_token = data[0]
 
     headers = {
@@ -61,9 +64,9 @@ async def run(account):
         acc.write(json.dumps(toDump))
 
     await session.close()
+
     main(entitlements_token, access_token, user_id,
          account['name'], account['matches'], account['discord'])
-
 
 def main(entitlements_token, access_token, user_id, name, wantedMatches, discord):
     today = datetime.today()
@@ -107,7 +110,8 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
             matchedSkins.append(matchName)
             if matchName.lower() in wantedMatches:
                 wanted = True
-    with open("./webhooks.json") as webhooks:
+    with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
+    # with open("./webhooks.json") as webhooks:
         webhooksJSON = json.load(webhooks)
 
     for webhook in webhooksJSON:
