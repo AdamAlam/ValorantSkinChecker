@@ -1,10 +1,13 @@
-from discord import Webhook, RequestsWebhookAdapter
+from discord import Webhook, RequestsWebhookAdapter, Member
 import requests
 import json
 from datetime import datetime
 import re
 import aiohttp
 import asyncio
+from time import time
+
+startTime = time()
 
 with open("/root/ValorantSkinChecker/account.json") as f:
 # with open("./account.json") as f:
@@ -150,19 +153,22 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
 
 if __name__ == '__main__':
     sendStr = []
-    toSend = ""
+    toSend = "------ Created by <@317148630542843919> ------"
     for account in accountData:
         asyncio.get_event_loop().run_until_complete(run(account, sendStr))
-    with open("./webhooks.json") as webhooks:
+    # with open("./webhooks.json") as webhooks:
+    with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
     # with open("./webhookTest.json") as webhooks:
         webhooksJSON = json.load(webhooks)
-    for i in range(len(sendStr)-1):
+    for i in range(len(sendStr)):
         toSend += f"{sendStr[i]}\n\n"
-    toSend += f"{sendStr[-1]}"
         
     for webhook in webhooksJSON:
         wburl = Webhook.from_url(
         webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
         wburl.send(toSend)
+    endTime = time()
+    wburl.send(f"Completed in {endTime - startTime} seconds")
+
     
         
