@@ -122,6 +122,9 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
 
         else:
             try:
+                for i in range(len(matchedSkins)):
+                    if matchedSkins[i].lower() in wantedMatches:
+                        matchedSkins[i] = f"***{matchedSkins[i]}***"
                 strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
             except IndexError:
                 strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} "
