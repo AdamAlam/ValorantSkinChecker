@@ -1,20 +1,36 @@
-from discord import Webhook, RequestsWebhookAdapter, Member
+from time import time
+startTime = time()
+from discord import Webhook, RequestsWebhookAdapter
 import requests
 import json
 from datetime import datetime
 import re
 import aiohttp
 import asyncio
-from time import time
 
-startTime = time()
-
+# For CentOS Server:
 with open("/root/ValorantSkinChecker/account.json") as f:
+# For Local Server:
 # with open("./account.json") as f:
     accountData = json.load(f)
 
+with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
+    # with open("./webhooks.json") as webhooks:
+    webhooksJSON = json.load(webhooks)
+urlArr = []
+for webhook in webhooksJSON:
+    urlArr.append(Webhook.from_url(
+        webhooksJSON[webhook], adapter=RequestsWebhookAdapter()))
 
-async def run(account, sendStr):
+today = datetime.today()
+datem = datetime(today.year, today.month, today.day,
+                    today.hour, today.minute)
+# rn = str(datem)[5:10]
+sendDate = str(datem)[5:10]
+
+
+
+async def run(account):
     session = aiohttp.ClientSession()
     data = {
         "client_id": "play-valorant-web-prod",
@@ -67,18 +83,13 @@ async def run(account, sendStr):
     await session.close()
 
     main(entitlements_token, access_token, user_id,
-         account['name'], account['matches'], account['discord'], sendStr)
+         account['name'], account['matches'], account['discord'])
 
-def main(entitlements_token, access_token, user_id, name, wantedMatches, discord, sendStr):
-    today = datetime.today()
-    datem = datetime(today.year, today.month, today.day,
-                     today.hour, today.minute)
-    # rn = str(datem)[5:10]
-    sendDate = str(datem)[5:10]
+def main(entitlements_token, access_token, user_id, name, wantedMatches, discord):
 
-    # with open("./skins.json", encoding="utf8") as skinJson:
-    with open("/root/ValorantSkinChecker/skins.json") as skinJson:
-        skinData = json.load(skinJson)
+    # with open("./skins.json") as s:
+    with open("/root/ValorantSkinChecker/skins.json") as s:
+        skinData = json.load(s)
 
     endpoint = f"https://pd.na.a.pvp.net/store/v2/storefront/{user_id}"
     headers = {
@@ -107,68 +118,36 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
             matchedSkins.append(matchName)
             if matchName.lower() in wantedMatches:
                 wanted = True
-    # with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
-    '''with open("./webhookTest.json") as webhooks:
-        webhooksJSON = json.load(webhooks)'''
 
-
-    '''for webhook in webhooksJSON:
-        wburl = Webhook.from_url(
-            webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
-        if not wanted:
-            try:
-                strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
-            except IndexError:
-                strToSend = f"{name}: {sendDate} "
-                for skin in matchedSkins:
-                    strToSend += f"{skin} "
-
-        else:
-            try:
-                for i in range(len(matchedSkins)):
-                    if matchedSkins[i].lower() in wantedMatches:
-                        matchedSkins[i] = f"***{matchedSkins[i]}***"
-                strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
-            except IndexError:
-                strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} "
-                for skin in matchedSkins:
-                    strToSend += f"{skin} "
-        wburl.send(strToSend)'''
     if not wanted:
         try:
-            strToSend = f"{name}: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
+            strToSend = f"{name}: {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
         except IndexError:
             strToSend = f"{name}: {sendDate} "
             for skin in matchedSkins:
                 strToSend += f"{skin} "
+
     else:
         try:
+            for i in range(len(matchedSkins)):
+                if matchedSkins[i].lower() in wantedMatches:
+                    matchedSkins[i] = f"***{matchedSkins[i]}***"
             strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
         except IndexError:
             strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} "
             for skin in matchedSkins:
                 strToSend += f"{skin} "
-    sendStr.append(strToSend)
+    for wburl in urlArr:
+        wburl.send(strToSend)
 
 
 if __name__ == '__main__':
-    sendStr = []
-    toSend = "------ Created by <@317148630542843919> ------"
+    for wburl in urlArr:
+        wburl.send(sendDate)
     for account in accountData:
-        asyncio.get_event_loop().run_until_complete(run(account, sendStr))
-    # with open("./webhooks.json") as webhooks:
-    with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
-    # with open("./webhookTest.json") as webhooks:
-        webhooksJSON = json.load(webhooks)
-    for i in range(len(sendStr)):
-        toSend += f"{sendStr[i]}\n\n"
-        
-    for webhook in webhooksJSON:
-        wburl = Webhook.from_url(
-        webhooksJSON[webhook], adapter=RequestsWebhookAdapter())
-        wburl.send(toSend)
+        asyncio.get_event_loop().run_until_complete(run(account))
     endTime = time()
-    wburl.send(f"Completed in {endTime - startTime} seconds")
-
-    
+    for wburl in urlArr:
+        wburl.send(f"Completed in {round(endTime-startTime, 2)} seconds.")
+        
         
