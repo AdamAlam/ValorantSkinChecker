@@ -4,3 +4,4 @@ response.json
 webhooks.json
 /__pycache__
 writeToJSONLocal.py
+CheckSkins.py
