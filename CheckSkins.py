@@ -8,14 +8,10 @@ import re
 import aiohttp
 import asyncio
 
-# For CentOS Server:
 with open("/root/ValorantSkinChecker/account.json") as f:
-# For Local Server:
-# with open("./account.json") as f:
     accountData = json.load(f)
 
 with open("/root/ValorantSkinChecker/webhooks.json") as webhooks:
-    # with open("./webhooks.json") as webhooks:
     webhooksJSON = json.load(webhooks)
 urlArr = []
 for webhook in webhooksJSON:
@@ -25,7 +21,6 @@ for webhook in webhooksJSON:
 today = datetime.today()
 datem = datetime(today.year, today.month, today.day,
                     today.hour, today.minute)
-# rn = str(datem)[5:10]
 sendDate = str(datem)[5:10]
 
 
@@ -38,21 +33,22 @@ async def run(account):
         "redirect_uri": "https://playvalorant.com/opt_in",
         "response_type": "token id_token",
     }
-    await session.post('https://auth.riotgames.com/api/v1/authorization', json=data)
+    await session.post('https://auth.riotgames.com/api/v1/authorization/', json=data)
 
     data = {
         "type": "auth",
         "username": account["username"],
         "password": account["password"]
     }
-    async with session.put('https://auth.riotgames.com/api/v1/authorization', json=data) as r:
+    async with session.put('https://auth.riotgames.com/api/v1/authorization/', json=data) as r:
         data = await r.json()
-    # print(data)
     pattern = re.compile(
         'access_token=((?:[a-zA-Z]|\d|\.|-|_)*).*id_token=((?:[a-zA-Z]|\d|\.|-|_)*).*expires_in=(\d*)')
     try:
         data = pattern.findall(data['response']['parameters']['uri'])[0]
     except:
+        print(f"Error with account {account['username']}")
+        await session.close()
         return
     access_token = data[0]
 
@@ -62,32 +58,30 @@ async def run(account):
     async with session.post('https://entitlements.auth.riotgames.com/api/token/v1', headers=headers, json={}) as r:
         data = await r.json()
     entitlements_token = data['entitlements_token']
-    # print(f"Entitlement Token: {entitlements_token}\n")
 
     async with session.post('https://auth.riotgames.com/userinfo', headers=headers, json={}) as r:
         data = await r.json()
     user_id = data['sub']
-    # print('User ID: ' + user_id)
     headers['X-Riot-Entitlements-JWT'] = entitlements_token
 
-    # Example Request. (Access Token and Entitlements Token needs to be included!)
     async with session.post(f'https://pd.na.a.pvp.net/name-service/v1/players', headers=headers) as r:
         data = json.loads(await r.text())
     toDump = {"access": entitlements_token,
               "bearer": access_token, "id": user_id}
 
     with open("/root/ValorantSkinChecker/auth.json", "w") as acc:
-    # with open("./auth.json", "w") as acc:
         acc.write(json.dumps(toDump))
 
-    await session.close()
+    try:
+        await session.close()
+    except:
+        print("Error when closing session")
 
     main(entitlements_token, access_token, user_id,
          account['name'], account['matches'], account['discord'])
 
 def main(entitlements_token, access_token, user_id, name, wantedMatches, discord):
 
-    # with open("./skins.json") as s:
     with open("/root/ValorantSkinChecker/skins.json") as s:
         skinData = json.load(s)
 
@@ -111,7 +105,6 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
         if matches >= 4:
             break
         id = skin['id'].lower()
-        # ids.append(id)
         if id in skinIds:
             matches += 1
             matchName = skin['name']
@@ -143,11 +136,18 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
 
 if __name__ == '__main__':
     for wburl in urlArr:
-        wburl.send(sendDate)
+        try:
+            wburl.send(sendDate)
+        except:
+            pass
     for account in accountData:
         asyncio.get_event_loop().run_until_complete(run(account))
     endTime = time()
     for wburl in urlArr:
-        wburl.send(f"Completed in {round(endTime-startTime, 2)} seconds.")
+        try:
+            pass
+            wburl.send(f"Completed in {round(endTime-startTime, 2)} seconds.")
+        except:
+            pass
         
         
