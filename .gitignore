@@ -1,10 +1,9 @@
 account.json
 auth.json
 response.json
+webhookTest.json
 webhooks.json
 /__pycache__
-writeToJSONLocal.py
 CheckSkins.py
-webhookTest.json
 matches.json
-webhookTest.json
+
