@@ -1,12 +1,13 @@
+import urllib
+import asyncio
+import aiohttp
+import re
+from datetime import datetime
+import json
+import requests
+from discord import Webhook, RequestsWebhookAdapter, Embed
 from time import time
 startTime = time()
-from discord import Webhook, RequestsWebhookAdapter
-import requests
-import json
-from datetime import datetime
-import re
-import aiohttp
-import asyncio
 
 with open("/root/ValorantSkinChecker/account.json") as f:
     accountData = json.load(f)
@@ -20,9 +21,8 @@ for webhook in webhooksJSON:
 
 today = datetime.today()
 datem = datetime(today.year, today.month, today.day,
-                    today.hour, today.minute)
+                 today.hour, today.minute)
 sendDate = str(datem)[5:10]
-
 
 
 async def run(account):
@@ -80,6 +80,7 @@ async def run(account):
     main(entitlements_token, access_token, user_id,
          account['name'], account['matches'], account['discord'])
 
+
 def main(entitlements_token, access_token, user_id, name, wantedMatches, discord):
 
     with open("/root/ValorantSkinChecker/skins.json") as s:
@@ -99,39 +100,30 @@ def main(entitlements_token, access_token, user_id, name, wantedMatches, discord
         skinIds.append(skin)
 
     wanted = False
-    matches = 0
-    matchedSkins = []
-    for skin in skinData['skinLevels']:
-        if matches >= 4:
-            break
-        id = skin['id'].lower()
-        if id in skinIds:
-            matches += 1
-            matchName = skin['name']
-            matchedSkins.append(matchName)
-            if matchName.lower() in wantedMatches:
-                wanted = True
+    matchedSkins = list(
+        filter(lambda skin: skin['levels'][0]['uuid'] in skinIds, skinData['data']))
+    for skin in matchedSkins:
+        if skin['displayName'].lower() in wantedMatches:
+            wanted = True
 
-    if not wanted:
-        try:
-            strToSend = f"{name}: {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
-        except IndexError:
-            strToSend = f"{name}: {sendDate} "
-            for skin in matchedSkins:
-                strToSend += f"{skin} "
+    matchedSkinsPics = []
+    for skin in matchedSkins:
+        toAppend = skin['displayIcon'] if skin['displayIcon'] else skin['chromas'][0]['displayIcon']
+        matchedSkinsPics.append(toAppend)
 
-    else:
-        try:
-            for i in range(len(matchedSkins)):
-                if matchedSkins[i].lower() in wantedMatches:
-                    matchedSkins[i] = f"***{matchedSkins[i]}***"
-            strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} {matchedSkins[0]} | {matchedSkins[1]} | {matchedSkins[2]} | {matchedSkins[3]}"
-        except IndexError:
-            strToSend = f"***MATCH FOUND*** <@{discord}>: {sendDate} "
-            for skin in matchedSkins:
-                strToSend += f"{skin} "
+    try:
+        strToSend = Embed()
+        strToSend.set_author(name=name)
+        strToSend.description = f"[{matchedSkins[0]['displayName']}]({matchedSkinsPics[0]}) | [{matchedSkins[1]['displayName']}]({matchedSkinsPics[1]}) | [{matchedSkins[2]['displayName']}]({matchedSkinsPics[2]}) | [{matchedSkins[3]['displayName']}]({matchedSkinsPics[3]})"
+        # for i in range(4):
+        #     strToSend.add_field(name=i+1, value=f"[{matchedSkins[i]['displayName']}]({matchedSkinsPics[i]})")
+    except:
+        pass
+
     for wburl in urlArr:
-        wburl.send(strToSend)
+        if wanted:
+            wburl.send(f"***MATCH FOUND*** <@{discord}>")
+        wburl.send(embed=strToSend)
 
 
 if __name__ == '__main__':
@@ -149,5 +141,3 @@ if __name__ == '__main__':
             wburl.send(f"Completed in {round(endTime-startTime, 2)} seconds.")
         except:
             pass
-        
-        
