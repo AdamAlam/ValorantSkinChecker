@@ -20,3 +20,6 @@ This process can be automated through several tools. The tool that I currently u
 More information about Crontab can be found [here](https://man7.org/linux/man-pages/man5/crontab.5.html).
 
 The command that I use is: `1 19 * * * /usr/bin/python3 /root/ValorantSkinChecker/CheckSkins.py`
+
+## Example Picture Below
+![](https://cdn.discordapp.com/attachments/405844066958442496/1015279099725488258/unknown.png)
