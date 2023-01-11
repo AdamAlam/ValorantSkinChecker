@@ -6,4 +6,5 @@ webhooks.json
 /__pycache__
 CheckSkins.py
 matches.json
+*/node_modules
 
