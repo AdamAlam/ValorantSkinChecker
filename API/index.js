@@ -18,7 +18,7 @@ app.get("/:discordId", (req, res) => {
   if (myData.length > 0) {
     res.send(myData[0]);
   } else {
-    res.status(404).send({});
+    res.send({});
   }
 });
 
