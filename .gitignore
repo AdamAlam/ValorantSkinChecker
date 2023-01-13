@@ -7,4 +7,5 @@ webhooks.json
 CheckSkins.py
 matches.json
 */node_modules
-
+userSkinData.json
+*/userSkinData.json
